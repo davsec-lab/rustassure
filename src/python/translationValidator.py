@@ -64,6 +64,12 @@ def getFunctions(logger, extractor, srcPath, singleFileName, fileList, functionO
     fileFuncMap = {}
     allFiles = glob.iglob(os.path.join(srcPath, "**/*.i"), recursive=True)
 
+    firstTime = True
+    if "individual-funcs" in srcPath:
+        firstTime = False # We are looking inside the directories
+                          # I think we should just pass the firstTime flag instead of doing this 
+                          # weird check. @TODO
+
     for filename in allFiles:
         # Don't look at files inside the individual-funcs directories
         # the first time we invoke getFunctions
@@ -76,7 +82,7 @@ def getFunctions(logger, extractor, srcPath, singleFileName, fileList, functionO
             if singleFileName not in filename and "individual-funcs" not in srcPath:
                 continue
         logger.debug("Extracting function bodies for file: %s", filename)
-        funcMap = extractor.extractFuncsAndDeps(filename, functionOrderList)
+        funcMap = extractor.extractFuncsAndDeps(filename, functionOrderList, firstTime)
         fileFuncMap.update(funcMap)
 
     # The second time we refresh the funcMap with the individual

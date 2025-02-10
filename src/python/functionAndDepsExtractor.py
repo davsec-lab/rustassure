@@ -201,7 +201,26 @@ class FunctionAndDepsExtractor:
                                 # Add it
                                 FunctionAndDependencies.structsWithUsageInfoMap[structName].usageList.add(useToken)
 
-    def extractFuncsAndDeps(self, filename, functionListOrder):
+    
+    def computeUsedFunctions(self, filename, usedFunctions):
+        cmd = "unused-function-printer " + filename # + " 2>/dev/null"
+        filename = os.path.abspath(filename)
+        self.logger.debug("Computing unused functions " + cmd) 
+        result = subprocess.run(cmd, shell=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if result.returncode != 0:
+            self.logger.warn(result.stderr)
+            self.logger.warn("Failed to remove unused functions")
+            return
+
+        print(cmd)
+        # print(result.stdout)
+        for line in result.stdout.split("\n"):
+            line = line.strip()
+            if "Used function" in line:
+                usedFunction = line.split(":")[1].strip()
+                usedFunctions.append(usedFunction)
+
+    def extractFuncsAndDeps(self, filename, functionListOrder, firstTime=False):
         """
         Use Universal ctags to get the start and end line numbers for
         1. function definitions [f]
@@ -213,6 +232,13 @@ class FunctionAndDepsExtractor:
         if not filename.endswith('i'):
             self.logger.critical("Can handle only preprocessed files")
             sys.exit(-1)
+
+        # Compute the used functions from the .i file
+        # If there are unused functions that got brought in due to the header expansion, they
+        # need to be removed
+        usedFunctions = []
+        if firstTime:
+            self.computeUsedFunctions(filename, usedFunctions)
 
         self.logger.info("(Re-)extracting functions from file %s", filename)
         fileRanges = FileRanges()
@@ -265,6 +291,9 @@ class FunctionAndDepsExtractor:
 
         # for each function, add everything before it in the AlwaysInclude map
         for funcSym in fileRanges.funcRangesMap:
+            if firstTime:
+                if funcSym not in usedFunctions:
+                    continue
             # Get the function and its dependencies
             functionAndDeps = FunctionAndDependencies(funcSym)
             funcRange = fileRanges.funcRangesMap[funcSym]

@@ -535,6 +535,7 @@ class Translator:
 
     def translateAll(self, funcMap, individualFuncPath, multiThreading):
         self.preTranslateComplexStructs()
+        print("Going to translate these functions " + str(len(funcMap)))
         # If the translatorMode is per-function then
         if self.translatorMode in [TranslatorModes.BASIC_CHUNK_CHAIN, TranslatorModes.COMPILATION_FEEDBACK, TranslatorModes.CF_STRUCT_REPLAY]:
             if multiThreading:
