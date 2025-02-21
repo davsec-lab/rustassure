@@ -199,7 +199,7 @@ def emitLLVMBitcodes(individualFuncPath, logger):
         # else:
         emitBitcodeCmd = "rustc -A dead_code --emit=llvm-bc --crate-type=lib -o " + filename + ".bc " + filename
         logger.debug("Running command %s", emitBitcodeCmd)
-        result = subprocess.run(emitBitcodeCmd, shell=True, text=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        result = subprocess.run(emitBitcodeCmd, shell=True, text=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE) #change to PIPE
         # Disassemble it (let's generate both to avoid any errors in bc -> ll conversion)
 
         disassemble_cmd = "llvm-dis " + filename + ".bc"
@@ -208,6 +208,8 @@ def emitLLVMBitcodes(individualFuncPath, logger):
         totalRustFiles = totalRustFiles + 1
         if (result.returncode != 0):
             logger.warn ("Compilation failed for %s", filename)
+            with open('compilation_errors.txt', 'a') as f:
+                f.write("Compilation failed for " + filename + "\n" + str(result.stderr))
         else:
             successRustFiles = successRustFiles + 1
             logger.info ("Compilation succeeded for %s", filename)
@@ -236,6 +238,67 @@ def emitLLVMBitcodes(individualFuncPath, logger):
     logger.info("Out of %d total Rust files %d compiled", totalRustFiles, successRustFiles)
     logger.info("Out of %d total C files %d compiled", totalCFiles, successCFiles)
 
+def find_error_codes():
+    position = {}  # Dictionary to store error codes and their counts
+    # single = {} # Dictionary to store files with only 1 error code
+    with open("compilation_errors.txt", 'r') as f:
+        for line in f.readlines():
+            if line.strip().startswith('error['):
+                error_code = line[:12]  # Extract the error code
+                if error_code in position:
+                    position[error_code] += 1  # Increment count
+                else:
+                    position[error_code] = 1  # Initialize count
+    
+    # Print the error codes and their counts
+    for error_code, count in position.items():
+        print(f"{error_code}: {count}")
+    
+    return position
+
+def parse_until_rs(input_string):
+    index = 0
+    while index < len(input_string):
+        # Check if ".rs" is in the current slice
+        if input_string[index:index + 3] == ".rs":
+            break
+        index += 1
+    
+    # Return the portion of the string up to ".rs" (including ".rs")
+    return input_string[:index + 3]
+
+def find_single_errors():
+    # position = {}  # Dictionary to store error codes and their counts
+    file_count = {} # Dictionary to store files with only 1 error code
+    file_error = {}
+    error_line = ""
+    with open("compilation_errors.txt", 'r') as f:
+        for line in f.readlines():
+            if line.strip().startswith('error['):
+                error_line = line # Extract the error code
+            if line.strip().startswith('--> inputs-complex/'):
+                # line = "example/path/to/file.rs other data"
+                error_file = parse_until_rs(line)
+                file_error[error_file] = error_line
+                # print("error_file: ", error_file) # Output: example/path/to/file.rs
+                # error_file = result  # Extract the file path
+                if error_file in file_count:
+                    # continue
+                    file_count[error_file] += 1  # Increment count
+                else:
+                    file_count[error_file] = 1  # Initialize count
+           
+    for file_path, count in file_count.items():
+        if count == 1:
+            print(f"{file_path}: {file_error[file_path]}")
+        # print(f"{file_error}: {count}")
+
+    # Print the error codes and their counts
+    # for file_path, count in file_count.items():
+    #     print(f"{file_path}: {count}")
+    
+    return file_count
+
 if __name__ == "__main__":
     logger = getLogger("test_llvm_bitcode_emitter_logger.log")
     parser = argparse.ArgumentParser(description="Emit LLVM Bitcodes with logging.")
@@ -244,5 +307,13 @@ if __name__ == "__main__":
     args = parser.parse_args()
     input_path = args.input_path
 
+     # Reset compilation_errors.txt before compiling new files
+    with open("compilation_errors.txt", "w") as f:
+        f.truncate(0)
+
     emitLLVMBitcodes(input_path, logger)
     # emitLLVMBitcodes("/Users/gab/repo/Rust/rustify-validator/src/Symbolizer/testcase/rust1", logger)
+
+    error_codes = find_error_codes()
+    # print("error_codes: ", error_codes)
+    find_single_errors()
