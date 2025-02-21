@@ -1,0 +1,1792 @@
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_uses_aead.rs
+  No definition found for struct `MbedtlsMdContextT`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsCipherContextT`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_has_pfs.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_truncated_hmac.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_free.rs
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_sig_alg.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_truncated_hmac_ext.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_bitmask_set.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_record_is_in_progress.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_poll.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_record_expansion.rs
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_optimize_checksum.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_psk_derive_premaster.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsDhmContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_transport.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_chk_buf_ptr.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_chain.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_wrapup.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslFlightItem`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_free.rs
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/net_prepare.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_badmac_limit.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_populate_transform.rs
+  No definition found for struct `Transform`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_operation.rs
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_key_exchange_md_tls1_2.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_server_ecdh_params.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_md5sha1.rs
+  No definition found for struct `MbedtlsSha1Context`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsMd5Context`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_remaining_payload_in_datagram.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation_period.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/vprintf.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_from_id.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set_max_entries.rs
+  No definition found for struct `MbedtlsX509Sequence`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsX509Name`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_split.rs
+  No definition found for struct `MyStruct`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_print_line_by_line.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_decrypt_encrypted_pms.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_anti_replay.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_build_record_nonce.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_cipher_mode.rs
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_remaining_space_in_datagram.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param_bin.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_own_key.rs
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_point_formats.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ciphersuites_for_version.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_clear_peer_cert.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509Crt`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_datagram_packing.rs
+  No definition found for struct `Sigevent`
+  No definition found for struct `IoMarker`
+  No definition found for struct `IoCodecvt`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsCipherInfo`
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `IoWideData`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `IoFile`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsMdInfo`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsPkInfo`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsX509CrlEntry`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_has_static_psk.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_sha384.rs
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_handshake_params`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_authmode.rs
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_crt.rs
+  No definition found for struct `Sigevent`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsX509CrlEntry`
+  No definition found for struct `IoFile`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_gen_key.rs
+  No definition found for struct `MbedtlsSslTicketKey`
+  No definition found for struct `MbedtlsSslTicketContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_psk.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_extended_ms_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_peer_cert.rs
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_extended_ms_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_pk_alg_from_sig.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_key_curve.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_key_cert_free.rs
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsX509Crt`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_32.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint32_identity.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_consume_current_message.rs
+  No definition found for struct `mbedtls_ssl_context`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_certificate_verify.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_max_fragment_length_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_sig_hashes.rs
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsCipherInfo`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsX509CrlEntry`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_tls12prf_from_cs.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_resend.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_usleep.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_record.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_truncated_hmac_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_setup.rs
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_version.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_key_bitlen.rs
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set.rs
+  No definition found for struct `MbedtlsSslCacheEntry`
+  No definition found for struct `MbedtlsSslCacheContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_psk.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_context_load.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_send_line.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_init.rs
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_signature_algorithms_ext.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_truncated_hmac_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__cmsg_nxthdr.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atoll.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_max_frag_len.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_printf_ecdh_internal.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsEcpGroup`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_id.rs
+  No definition found for struct `Sigevent`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsSslCiphersuiteT`
+  No definition found for struct `IoFile`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_alpn_ext00.rs
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_min_version.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_cache.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_sni.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_extended_ms_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_set_timeout.rs
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_hostname_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ciphersuites.rs
+  No definition found for struct `mbedtls_ecp_curve_info`
+  No definition found for struct `mbedtls_mpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_save.rs
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_srv_cert.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_memcpy_offset.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_update_handshake_status.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHsBuffer`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_prepare_server_key_exchange.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_ec.rs
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `mbedtls_ecp_keypair`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_ecp_group`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_peer_crt_unchanged.rs
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_free.rs
+  No definition found for struct `MbedtlsSha512Context`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSha1Context`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSha256Context`
+  No definition found for struct `MbedtlsSslFlightItem`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsMd5Context`
+  No definition found for struct `MbedtlsDhmContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_renegotiation_info00.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_own_cert.rs
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `HandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_context_load.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_has_psk_or_cb.rs
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsTlsPrfTypes`
+  No definition found for struct `MbedtlsEcpGroupId`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509CrtProfile`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_sha256.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_total_len.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_16.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_flight_append.rs
+  No definition found for struct `MbedtlsSslFlightItem`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_remove_psk.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls_sha256.rs
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `HandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_reset.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set_timeout.rs
+  No definition found for struct `MbedtlsX509Sequence`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsX509Name`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_current_mtu.rs
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_update.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_type.rs
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_from_pk_alg.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_validate_ciphersuite.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_setup.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_tickets_cb.rs
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_md_context_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `mbedtls_md_info_t`
+  No definition found for struct `mbedtls_cipher_info_t`
+  No definition found for struct `mbedtls_cipher_base_t`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_cipher_context_t`
+  No definition found for struct `mbedtls_ecp_curve_info`
+  No definition found for struct `mbedtls_ecp_group`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_certificate.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_elliptic_curves.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_max_version.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_init.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsMdContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_print_pk.rs
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsPkDebugItem`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_start.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_block_size.rs
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_signature_algorithms_ext.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_write_dummy.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_write.rs
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_own_cert.rs
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cert_req_ca_list.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_mtu.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_dhe.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_max_frag_len.rs
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_session_ticket_ext.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_recv.rs
+  No definition found for struct `mbedtls_net_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_alpn_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_connect.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_hash_set_add.rs
+  No definition found for struct `MbedtlsSslSigHashSet`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_buf.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_memcpy_if_eq.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cbc_record_splitting.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_get_type.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_ecdh_params.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ca_chain.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Crl`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_hmac.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_coordinate.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_renegotiate.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_cert_req_allowed.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_export_keys_cb.rs
+  No definition found for struct `mbedtls_x509_crl`
+  No definition found for struct `mbedtls_asn1_sequence`
+  No definition found for struct `mbedtls_x509_time`
+  No definition found for struct `sigevent`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_cipher_context_t`
+  No definition found for struct `mbedtls_md_context_t`
+  No definition found for struct `mbedtls_cipher_info_t`
+  No definition found for struct `mbedtls_cipher_base_t`
+  No definition found for struct `mbedtls_x509_crl_entry`
+  No definition found for struct `mbedtls_x509_crt`
+  No definition found for struct `mbedtls_asn1_named_data`
+  No definition found for struct `mbedtls_dhm_context`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_x509_crt_profile`
+  No definition found for struct `mbedtls_ssl_ciphersuite_t`
+  No definition found for struct `mbedtls_ecp_group`
+  No definition found for struct `mbedtls_ecdh_context`
+  No definition found for struct `mbedtls_md_info_t`
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `_IO_FILE`
+  No definition found for struct `mbedtls_asn1_buf`
+  No definition found for struct `mbedtls_ecp_curve_info`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_context_save.rs
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsCipherInfo`
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsMdInfo`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsPkInfo`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsX509CrlEntry`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_server_signature.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ciphersuite_match.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls_sha384.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_handshake_params`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint64_identity.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_point_formats_ext.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_signature_algorithm.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_64.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_close.rs
+  No definition found for struct `MbedtlsNetContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_hello.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_generic.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_max_fragment_length_ext.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_ca_chain.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsX509Crl`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_frag_off.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_handshake_params_init.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_real.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_future_record.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `FutureRecord`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_select_key.rs
+  No definition found for struct `MbedtlsSslTicketKey`
+  No definition found for struct `NameWrapper`
+  No definition found for struct `MbedtlsSslTicketContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_get.rs
+  No definition found for struct `MbedtlsSslCacheEntry`
+  No definition found for struct `MbedtlsSslCacheContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_free.rs
+  No definition found for struct `MbedtlsSslTicketKey`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsSslTicketContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_decrypt_buf.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_fatal_handshake_failure.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_renegotiation_info.rs
+  No definition found for struct `mbedtls_ssl_context`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_safer_memcmp.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_reset.rs
+  No definition found for struct `Person`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_hs_is_proper_fragment.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/fputc_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_name.rs
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_reset_checksum.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_step.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint16_identity.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param_ctx.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_msg.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_alpn_protocol.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls_sha384.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypt_then_mac_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ciphersuite_is_removed.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_frag_len.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atof.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_next_record_is_in_datagram.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_session.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_curve.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_point_formats_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_certificate.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_in_hdr_len.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite.rs
+  No definition found for struct `MbedtlsX509Sequence`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsX509Name`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsX509Time`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_init.rs
+  No definition found for struct `mbedtls_ssl_config`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_server_key_exchange.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_timer.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_accept.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_extended_ms_ext.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_tls_prf.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_parse.rs
+  No definition found for struct `MbedtlsSslTicketKey`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslTicketContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_session_ticket_ext00.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_fallback.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_list_ciphersuites.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_extract_add_data_from_record.rs
+  No definition found for struct `MbedtlsRecord`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ecdh.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_finished.rs
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_handshake_params`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_output_max_frag_len.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypt_then_mac_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_rng.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `MbedtlsEcpGroup`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_name.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_printf_ecdh.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsMpi`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_ecdh_params_from_cert00.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_sha256.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_flight_transmit.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_bio.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read_version.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_read_timeout.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_sha384.rs
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsMpi`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypt_then_mac_ext.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_hello_verify_request.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_srv_check_client_no_crt_notification.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_buffered_record.rs
+  No definition found for struct `mbedtls_ssl_handshake_params`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_buffering`
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_future_record`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_version.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ferror_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_timer_cb.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_x509_crt`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_ecdh_params_from_cert.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_dtls_clihlo_cookie.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypt_then_mac_ext.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsCipherInfo`
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_certificate_request.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_flight_completed.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_maximum_datagram_size.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_reset_retransmit_timeout.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_session_ticket_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_double_retransmit_timeout.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `SslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_verify.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_from_string.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_rsa.rs
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_rsa_context`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_mpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cert_profile.rs
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_new_session_ticket.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putchar_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_free_buffered_record.rs
+  No definition found for struct `FutureRecord`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls_sha256.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_handshake_params`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putchar.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_setup.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_new_session_ticket.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_handshake_params`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hostname.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_curves.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_six_bytes.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ep_len.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypted_pms.rs
+  No definition found for struct `Handshake`
+  No definition found for struct `SslContext`
+  No definition found for struct `Session`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_buffered_message.rs
+  No definition found for struct `MbedtlsSslHsBuffer`
+  No definition found for struct `MbedtlsSslBuffering`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_renegotiation_ext00.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_max_out_record_payload.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_psk_hint.rs
+  No definition found for struct `mbedtls_ssl_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handle_message_type.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_renegotiation_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_max_fragment_length_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_client_key_exchange.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsDhmContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_iv_size.rs
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls1_prf.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_from_pk.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_alpn_protocols.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_init.rs
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_point_formats_ext00.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_hello_done.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_truncated_hmac_ext.rs
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_no_pfs.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/bsearch.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_ret.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_dh_public.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_authmode.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_generate_random.rs
+  No definition found for struct `Handshake`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `SslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_free.rs
+  No definition found for struct `MbedtlsSslCacheEntry`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslCacheContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_server_step.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read_record.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_client_step.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_hash_from_md_alg.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_session_pointer.rs
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_next_record.rs
+  No definition found for struct `mbedtls_record`
+  No definition found for struct `mbedtls_ssl_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_client_hello.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/net_would_block.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_key_exchange.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsPkRestartCtx`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslSession`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_fetch_input.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_dh_params.rs
+  No definition found for struct `Handshake`
+  No definition found for struct `DhmContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `Config`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_record.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_session.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ecdhe.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_append_key_cert.rs
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsX509Crt`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_handshake_timeout.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_copy.rs
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509Crt`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_record_type.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_endpoint.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_wrapup_free_hs_transform.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dbg.rs
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsX509CrtProfile`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atol.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_psk_identity.rs
+  No definition found for struct `MbedtlsTlsPrfTypes`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509CrtProfile`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_bitmask_check.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_max_fragment_length_ext.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_cert_usage.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsX509Crt`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_sig_hash.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_input_max_frag_len.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_psk_cb.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_init.rs
+  No definition found for struct `MbedtlsSslTicketKey`
+  No definition found for struct `MbedtlsCipherBase`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsSslTicketContext`
+  No definition found for struct `MbedtlsCipherInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_update_keys.rs
+  No definition found for struct `mbedtls_ssl_ticket_key`
+  No definition found for struct `mbedtls_ssl_ticket_context`
+  No definition found for struct `mbedtls_cipher_context_t`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_md_alg_from_hash.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_flight_free.rs
+  No definition found for struct `MbedtlsSslFlightItem`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_client_reconnect.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_export_keys_ext_cb.rs
+  No definition found for struct `mbedtls_x509_crl`
+  No definition found for struct `mbedtls_asn1_sequence`
+  No definition found for struct `mbedtls_x509_time`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_cipher_context_t`
+  No definition found for struct `mbedtls_md_context_t`
+  No definition found for struct `mbedtls_cipher_info_t`
+  No definition found for struct `mbedtls_cipher_base_t`
+  No definition found for struct `mbedtls_x509_crl_entry`
+  No definition found for struct `mbedtls_x509_crt`
+  No definition found for struct `mbedtls_asn1_named_data`
+  No definition found for struct `mbedtls_dhm_context`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_x509_crt_profile`
+  No definition found for struct `mbedtls_ssl_ciphersuite_t`
+  No definition found for struct `mbedtls_ecp_group`
+  No definition found for struct `mbedtls_ecdh_context`
+  No definition found for struct `mbedtls_md_info_t`
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `mbedtls_asn1_buf`
+  No definition found for struct `mbedtls_ecp_curve_info`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_init.rs
+  No definition found for struct `MbedtlsSslCacheEntry`
+  No definition found for struct `MbedtlsSslCacheContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_free.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_pending.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_hs_hdr_len.rs
+  No definition found for struct `Sigevent`
+  No definition found for struct `IoMarker`
+  No definition found for struct `MbedtlsMdContextT`
+  No definition found for struct `IoCodecvt`
+  No definition found for struct `MbedtlsCipherInfoT`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslCiphersuiteT`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `IoWideData`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsCipherContextT`
+  No definition found for struct `IoFile`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsMdInfoT`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsCipherBaseT`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509CrlEntry`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_check.rs
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsSslCookieCtx`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_handle_possible_reconnect.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_swap_epochs.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_remove_psk.rs
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_mfl_code_to_length.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_message.rs
+  No definition found for struct `MbedtlsSslHsBuffer`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_hs_header.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_key_exchange_md_ssl_tls.rs
+  No definition found for struct `HandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_resend_hello_request.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_session_ticket_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_reassembly_buffer_size.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_psk.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_change_cipher_spec.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_init.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_alert_message.rs
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/feof_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_check.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_set_threshold.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_make_space.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_servername_ext.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypted_pms.rs
+  No definition found for struct `Handshake`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `SslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_cookies.rs
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_md_context_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `mbedtls_md_info_t`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_ecp_curve_info`
+  No definition found for struct `mbedtls_ecp_group`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_record_header.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_update_in_pointers.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_own_cert.rs
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_out_hdr_len.rs
+  No definition found for struct `Sigevent`
+  No definition found for struct `IoMarker`
+  No definition found for struct `MbedtlsMdContextT`
+  No definition found for struct `IoCodecvt`
+  No definition found for struct `MbedtlsCipherInfoT`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsAsn1NamedData`
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslCiphersuiteT`
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `IoWideData`
+  No definition found for struct `MbedtlsAsn1Buf`
+  No definition found for struct `MbedtlsCipherContextT`
+  No definition found for struct `IoFile`
+  No definition found for struct `MbedtlsX509CrtProfile`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsMdInfoT`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfoT`
+  No definition found for struct `MbedtlsEcpGroup`
+  No definition found for struct `MbedtlsAsn1Sequence`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsCipherBaseT`
+  No definition found for struct `MbedtlsDhmContext`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsX509CrlEntry`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_close_notify.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_request.rs
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_hmac.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_derive_keys.rs
+  No definition found for struct `mbedtls_x509_crl`
+  No definition found for struct `mbedtls_asn1_sequence`
+  No definition found for struct `mbedtls_x509_time`
+  No definition found for struct `mbedtls_mpi`
+  No definition found for struct `mbedtls_cipher_context_t`
+  No definition found for struct `mbedtls_md_context_t`
+  No definition found for struct `rust`
+  No definition found for struct `mbedtls_cipher_info_t`
+  No definition found for struct `mbedtls_cipher_base_t`
+  No definition found for struct `mbedtls_x509_crl_entry`
+  No definition found for struct `mbedtls_x509_crt`
+  No definition found for struct `mbedtls_asn1_named_data`
+  No definition found for struct `mbedtls_dhm_context`
+  No definition found for struct `mbedtls_pk_context`
+  No definition found for struct `mbedtls_x509_crt_profile`
+  No definition found for struct `mbedtls_ssl_ciphersuite_t`
+  No definition found for struct `mbedtls_ecp_group`
+  No definition found for struct `mbedtls_ecdh_context`
+  No definition found for struct `mbedtls_md_info_t`
+  No definition found for struct `mbedtls_pk_info_t`
+  No definition found for struct `mbedtls_ecp_point`
+  No definition found for struct `mbedtls_asn1_buf`
+  No definition found for struct `mbedtls_ecp_curve_info`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_reset_int.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_change_cipher_spec.rs
+  No definition found for struct `mbedtls_ssl_session`
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_context`
+  No definition found for struct `mbedtls_ssl_transform`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_key_exchange.rs
+  No definition found for struct `MbedtlsEcdhContext`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsDhmContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_prepare_record_content.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atoi.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_psk.rs
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_hash_set_init.rs
+  No definition found for struct `MbedtlsMdContext`
+  No definition found for struct `MbedtlsSslSigHashSet`
+  No definition found for struct `MbedtlsMdInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_init.rs
+  No definition found for struct `mbedtls_ssl_context`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_check_dummy.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_free.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslKeyCert`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_set_handshake_prfs.rs
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_recv_timeout.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_send.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_reset_in_out_pointers.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation_enforced.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getchar_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ec.rs
+  No definition found for struct `MbedtlsSslCiphersuite`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_mpi.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_verify00.rs
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_compute_master.rs
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_ecp.rs
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_recv_flight_completed.rs
+  No definition found for struct `MbedtlsSslFlightItem`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_start_renegotiation.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_free.rs
+  No definition found for struct `MbedtlsNetContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_write.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_tickets.rs
+  No definition found for struct `MbedtlsSslConfig`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_encrypt_buf.rs
+  No definition found for struct `MbedtlsRecord`
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_set_psk_identity.rs
+  No definition found for struct `mbedtls_ssl_config`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffering_free_slot.rs
+  No definition found for struct `MbedtlsSslHsBuffer`
+  No definition found for struct `MbedtlsSslBuffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_timer.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_set_nonblock.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_free.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsCipherContext`
+  No definition found for struct `MbedtlsMdContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getc_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_client_transport_id.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_elliptic_curves_ext.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsEcpCurveInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/fgetc_unlocked.rs
+  No definition found for struct `MyFile`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_record_replay_check.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_defaults.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsEcpGroupId`
+  No definition found for struct `MbedtlsX509CrtProfile`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_finished.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_verify.rs
+  No definition found for struct `MbedtlsX509Crl`
+  No definition found for struct `MbedtlsPkInfo`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsX509Sequence`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsX509Name`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslCiphersuite`
+  No definition found for struct `MbedtlsX509Buf`
+  No definition found for struct `MbedtlsX509Time`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsX509CrtProfile`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_bytes_avail.rs
+  No definition found for struct `MbedtlsSslTransform`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsX509Crt`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+  No definition found for struct `MbedtlsSslSession`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_get_len.rs
+  No definition found for struct `MbedtlsPkContext`
+  No definition found for struct `MbedtlsPkInfo`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_alpn_ext.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_load.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_verify_result.rs
+  No definition found for struct `MbedtlsSslContextStruct`
+  No definition found for struct `MbedtlsSslSession`
+  No definition found for struct `MbedtlsEcpPoint`
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_alpn_ext00.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getchar.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_hello_request.rs
+  No definition found for struct `MbedtlsSslContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_handshake_msg.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+No issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putc_unlocked.rs
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_set_block.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_sig_pk_alg.rs
+  No definition found for struct `mbedtls_ssl_ciphersuite_t`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_bind.rs
+  No definition found for struct `MbedtlsNetContext`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_verify.rs
+  No definition found for struct `MbedtlsMpi`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_buffering_free.rs
+  No definition found for struct `HandshakeBuffer`
+  No definition found for struct `MbedtlsSslContext`
+  No definition found for struct `Buffering`
+  No definition found for struct `MbedtlsSslHandshakeParams`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_server_hello_done.rs
+  No definition found for struct `mbedtls_ssl_config`
+  No definition found for struct `mbedtls_ssl_context`
+
+Issues found in: ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_ctr_renegotiate.rs
+  No definition found for struct `MbedtlsSslConfig`
+  No definition found for struct `MbedtlsSslContext`

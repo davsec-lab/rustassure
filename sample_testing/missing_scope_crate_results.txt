@@ -1,0 +1,3896 @@
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_uses_aead.rs:
+  - std::ptr::null_mut
+  - std::ptr::null
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_has_pfs.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_truncated_hmac.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_free.rs:
+  - session.is_null
+  - ssl_clear_peer_cert
+  - free
+  - std::mem::size_of::<MbedtlsSslSession>
+  - mbedtls_platform_zeroize
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_sig_alg.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_truncated_hmac_ext.rs:
+  - mbedtls_ssl_send_alert_message
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+  - buf.is_empty
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_bitmask_set.rs:
+  - mask.as_mut_ptr
+  - ptr::write_bytes
+  - mask.as_mut_ptr().add
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_record_is_in_progress.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_poll.rs:
+  - event.is_readable
+  - events.iter
+  - poll.registry
+  - Some
+  - Ok
+  - Events::with_capacity
+  - Poll::new
+  - Interest::empty
+  - poll.registry().register
+  - Duration::from_millis
+  - poll.poll
+  - event.is_writable
+  - Token
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_record_expansion.rs:
+  - transform.is_null
+  - ctx.mode.clone
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_optimize_checksum.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_psk_derive_premaster.rs:
+  - end.offset_from
+  - mbedtls_debug_print_mpi
+  - p.add
+  - ptr::null
+  - mbedtls_debug_print_ret
+  - ptr::copy_nonoverlapping
+  - handshake.premaster.as_mut_ptr
+  - mbedtls_ecdh_calc_secret
+  - mbedtls_dhm_calc_secret
+  - mbedtls_debug_print_msg
+  - mbedtls_debug_printf_ecdh
+  - p.offset_from
+  - mbedtls_ssl_get_psk
+  - handshake.premaster.len
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_transport.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_chk_buf_ptr.rs:
+  - (end as usize).wrapping_sub
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_chain.rs:
+  - Ok
+  - mbedtls_debug_print_ret
+  - AlertMessage::from
+  - mbedtls_ssl_hs_hdr_len
+  - ssl_clear_peer_cert
+  - ssl.send_alert_message
+  - MbedtlsError::from_code
+  - ssl_check_peer_crt_unchanged
+  - mbedtls_debug_print_msg
+  - Err
+  - mbedtls_debug_print_crt
+  - chain.parse_der
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_wrapup.rs:
+  - f_set_cache
+  - CStr::from_bytes_with_nul_unchecked(b"<= handshake wrapup\0").as_ptr
+  - ptr::null_mut
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_tls.c\0").as_ptr
+  - mbedtls_ssl_session_free
+  - mbedtls_ssl_set_timer
+  - (*(*ssl).handshake).flight.is_null
+  - CStr::from_bytes_with_nul_unchecked(b"cache did not store session\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - (*ssl).session.is_null
+  - Box::from_raw
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"skip freeing handshake and transform\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"=> handshake wrapup\0").as_ptr
+  - mbedtls_ssl_handshake_wrapup_free_hs_transform
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_free.rs:
+  - self.timeout.zeroize
+  - ctx.free
+  - MbedtlsSslCookieCtx::new
+  - self.zeroize
+  - Context::new
+  - self.hmac_ctx.free
+  - MbedtlsMdContext::new
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/net_prepare.rs:
+  - flag::Flag::new
+  - flag::register
+  - flag::register(SIGPIPE, flag::Flag::new()).expect
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_badmac_limit.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_populate_transform.rs:
+  - aead::AES_256_GCM.tag_len
+  - okm.fill
+  - Ok
+  - rng.fill
+  - aead::LessSafeKey::new
+  - hkdf::Prk::new_less_safe
+  - prk.expand
+  - hmac::Key::new
+  - aead::Nonce::assume_unique_for_key
+  - SystemRandom::new
+  - aead::UnboundKey::new
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_operation.rs:
+  - (*ctx).cipher_info.is_none
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_key_exchange_md_tls1_2.rs:
+  - ctx.update
+  - Ok
+  - ctx.finish
+  - hash.copy_from_slice
+  - Context::new
+  - digest.as_ref
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_server_ecdh_params.rs:
+  - curve_info.is_none
+  - msg.as_ptr
+  - CurveInfo::from_grp_id
+  - CString::new("should never happen").unwrap
+  - file.as_ptr
+  - format.as_ptr
+  - curve_info.unwrap
+  - CString::new
+  - CString::new("ssl_cli.c").unwrap
+  - curve_info.name.as_ptr
+  - debug_printf_ecdh
+  - ssl.check_curve
+  - CString::new("ECDH curve: %s").unwrap
+  - debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_md5sha1.rs:
+  - ssl_context.handshake.fin_sha1.context.clone
+  - ssl.handshake.fin_md5.context.update
+  - ssl.handshake.fin_sha1.context.update
+  - Context::new
+  - ssl_context.handshake.fin_sha1.context.clone().finish
+  - ssl_context.handshake.fin_md5.context.clone().finish
+  - ssl_context.handshake.fin_md5.context.clone
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_remaining_payload_in_datagram.rs:
+  - mbedtls_ssl_get_record_expansion
+  - ssl_get_remaining_space_in_datagram
+  - mbedtls_ssl_get_output_max_frag_len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation_period.rs:
+  - ptr::copy_nonoverlapping
+  - period.as_ptr
+  - conf.renego_period.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/vprintf.rs:
+  - io::stdout
+  - stdout.lock
+  - Ok
+  - handle.write_fmt
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_from_id.rs:
+  - CIPHERSUITE_DEFINITIONS.iter().find
+  - CIPHERSUITE_DEFINITIONS.iter
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set_max_entries.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_split.rs:
+  - ClientSession::new
+  - Arc::new
+  - webpki::DNSNameRef::try_from_ascii_str("example.com").unwrap
+  - ClientConfig::new
+  - webpki::DNSNameRef::try_from_ascii_str
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_print_line_by_line.rs:
+  - s.to_str
+  - s.to_str().unwrap
+  - str_buf.as_ptr
+  - cur.find
+  - CStr::from_ptr
+  - str_buf[..len].copy_from_slice
+  - start.as_bytes
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_decrypt_encrypted_pms.rs:
+  - rustls::ServerSession::new
+  - config.set_single_cert
+  - rustls::NoClientAuth::new
+  - Arc::new
+  - session.decrypt
+  - Ok
+  - config.set_single_cert(vec![], private_key.clone()).map_err
+  - ServerConfig::new
+  - TLSError::General
+  - "Failed to set certificate".into
+  - private_key.clone
+  - PrivateKey
+  - session.decrypt(encrypted_pms, peer_pms).map_err
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_anti_replay.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_build_record_nonce.rs:
+  - dynamic_iv.iter().enumerate
+  - dst_iv.fill
+  - fixed_iv.len
+  - dst_iv.len
+  - dst_iv[..fixed_iv_len].copy_from_slice
+  - dynamic_iv.len
+  - dynamic_iv.iter
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_cipher_mode.rs:
+  - std::ptr::null_mut
+  - ctx.cipher_info.is_null
+  - std::ptr::null
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_remaining_space_in_datagram.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param_bin.rs:
+  - Ok
+  - dhm_p_mpi.read_binary
+  - conf.set_dh_param
+  - dhm_p_mpi.free
+  - Mpi::new
+  - dhm_g_mpi.read_binary
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_own_key.rs:
+  - ptr::null_mut
+  - key_cert.is_null
+  - (*ssl).handshake.is_null
+  - (*(*ssl).handshake).key_cert.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_point_formats.rs:
+  - buf.len
+  - p.is_empty
+  - Ok
+  - Some
+  - buf.is_empty
+  - Err
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ciphersuites_for_version.rs:
+  - ciphersuites.as_ptr
+  - std::ptr::null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_clear_peer_cert.rs:
+  - session.ssl_clear_peer_cert
+  - self.peer_cert.take
+  - peer_cert.free
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_datagram_packing.rs:
+  - code itself. This error typically occurs when there is an unmatched backquote
+  - encountered
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_has_static_psk.rs:
+  - conf.psk.is_null
+  - conf.psk_identity.is_null
+  - std::ptr::null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_sha384.rs:
+  - hasher.finalize
+  - ssl.handshake.fin_sha512.update
+  - Sha512::new
+  - hasher.update
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_authmode.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_crt.rs:
+  - crt_ptr.is_null
+  - (*ssl).conf.is_null
+  - ssl.is_null
+  - (*(*ssl).conf).f_dbg.is_none
+  - String::with_capacity
+  - crt.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_gen_key.rs:
+  - SystemTime::now()
+        .duration_since
+  - Ok
+  - (ctx.f_rng)(&mut *ctx.p_rng, &mut key.name).is_err
+  - SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .expect("Time went backwards")
+        .as_secs
+  - key.ctx.set_key
+  - buf.zeroize
+  - (ctx.f_rng)
+  - SystemTime::now
+  - SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .expect
+  - Err
+  - (ctx.f_rng)(&mut *ctx.p_rng, &mut buf).is_err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_psk.rs:
+  - psk_identity.unwrap().len
+  - Some
+  - psk.unwrap().len
+  - psk.unwrap
+  - psk_identity.unwrap
+  - psk_data.to_vec
+  - psk.is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_extended_ms_ext00.rs:
+  - buf.as_mut_ptr
+  - b"client hello, adding extended_master_secret extension\0".as_ptr
+  - p.add
+  - ptr::null
+  - b"ssl_cli.c\0".as_ptr
+  - buffer.as_ptr().add
+  - buffer.as_ptr
+  - mbedtls_debug_print_msg
+  - buffer.len
+  - mbedtls_ssl_chk_buf_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_peer_cert.rs:
+  - ssl.session.as_ref
+  - ssl.session.as_ref()?.peer_cert.as_deref
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_extended_ms_ext00.rs:
+  - mbedtls_ssl_send_alert_message
+  - format.as_ptr
+  - CStr::from_bytes_with_nul(b"ssl_cli.c\0").unwrap
+  - file.as_ptr
+  - CStr::from_bytes_with_nul
+  - CStr::from_bytes_with_nul(b"non-matching extended master secret extension\0").unwrap
+  - mbedtls_debug_print_msg
+  - buf.is_empty
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_pk_alg_from_sig.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_key_curve.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_key_cert_free.rs:
+  - ptr::null_mut
+  - Box::new
+  - Box::from_raw
+  - key_cert.is_null
+  - Box::into_raw
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_32.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint32_identity.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_consume_current_message.rs:
+  - mbedtls_debug_print_buf
+  - msg.as_ptr
+  - text.as_ptr
+  - CString::new("should never happen").unwrap
+  - ssl.in_offt.is_null
+  - file.as_ptr
+  - memmove
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new
+  - mbedtls_debug_print_msg
+  - ssl.in_msg.add
+  - CString::new("remaining content in record").unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_certificate_verify.rs:
+  - Ok
+  - mbedtls_ssl_own_key(ssl).is_none
+  - mbedtls_ssl_ciphersuite_cert_req_allowed
+  - ssl.handshake.calc_verify
+  - mbedtls_ssl_derive_keys
+  - mbedtls_pk_sign_restartable
+  - mbedtls_ssl_own_cert(ssl).is_none
+  - mbedtls_pk_can_do
+  - mbedtls_debug_print_msg
+  - Err
+  - mbedtls_ssl_sig_from_pk
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_own_key
+  - mbedtls_ssl_write_handshake_msg
+  - mbedtls_ssl_own_cert
+  - mbedtls_ssl_own_key(ssl).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_max_fragment_length_ext00.rs:
+  - buf.len
+  - mbedtls_ssl_send_alert_message
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_sig_hashes.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_tls12prf_from_cs.rs:
+  - mbedtls_ssl_ciphersuite_from_id
+  - ciphersuite_info.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_resend.rs:
+  - CString::new("=> mbedtls_ssl_resend").unwrap
+  - CString::new("<= mbedtls_ssl_resend").unwrap
+  - format.as_ptr
+  - file.as_ptr
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_flight_transmit
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_usleep.rs:
+  - sleep
+  - Duration::from_micros
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_record.rs:
+  - buf.len
+  - mbedtls_debug_print_buf
+  - buf.as_mut_ptr
+  - ssl.transform_in.is_null
+  - mbedtls_debug_print_ret
+  - std::mem::zeroed
+  - ssl_parse_record_header
+  - mbedtls_debug_print_msg
+  - mbedtls_platform_zeroize
+  - mbedtls_ssl_decrypt_buf
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_truncated_hmac_ext00.rs:
+  - buf.len
+  - buf.as_mut_ptr
+  - p.add
+  - buf.as_ptr().add
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_setup.rs:
+  - rng.random
+  - ctx.hmac_ctx.hmac_starts
+  - OsEntropy::new
+  - Ok
+  - zeroize
+  - Md::setup
+  - f_rng
+  - MbedtlsSslCookieCtx::setup
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation.rs:
+  - MbedtlsSslConfig::new
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_version.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_key_bitlen.rs:
+  - (*ctx).cipher_info.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set.rs:
+  - Layout::array::<u8>((*cur).peer_cert.len).unwrap
+  - SystemTime::now().duration_since
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs
+  - cur.is_null
+  - prv.is_null
+  - Layout::array::<u8>(len).unwrap
+  - Layout::new::<MbedtlsSslCacheEntry>
+  - (*cur).peer_cert.p.is_null
+  - SystemTime::now
+  - Layout::array::<u8>
+  - ptr::write_bytes
+  - alloc_zeroed
+  - ptr::null_mut
+  - ptr::copy_nonoverlapping
+  - (*cur).session.peer_cert.is_null
+  - old.is_null
+  - mbedtls_x509_crt_free
+  - Layout::new::<MbedtlsX509Crt>
+  - mbedtls_ssl_session_copy
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_psk.rs:
+  - Ok
+  - ptr::null
+  - (*ssl.conf).psk.is_null
+  - (*ssl.handshake).psk.is_null
+  - Err
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_context_load.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_send_line.rs:
+  - std::ptr::null_mut
+  - std::ffi::CString::new(str).unwrap
+  - f_dbg
+  - std::ffi::CString::new(file).unwrap
+  - std::ffi::CString::new
+  - file_cstr.as_ptr
+  - str_cstr.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_init.rs:
+  - Duration::from_secs
+  - MbedtlsSslCookieCtx::new
+  - hmac::Key::new
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_signature_algorithms_ext.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"length in bytes of sig-hash-alg extension too big\0").as_ptr
+  - buf.len
+  - mbedtls_ssl_hash_from_md_alg
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - buf.as_mut_ptr
+  - p.add
+  - sig_hashes.is_null
+  - CStr::from_bytes_with_nul_unchecked
+  - buf.as_mut_ptr().add
+  - sig_alg_list.add
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"client hello, adding signature_algorithms extension\0").as_ptr
+  - md.add
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_truncated_hmac_ext00.rs:
+  - buf.len
+  - mbedtls_ssl_send_alert_message
+  - format.as_ptr
+  - file.as_ptr
+  - CString::new
+  - CString::new("ssl_cli.c").unwrap
+  - CString::new("non-matching truncated HMAC extension").unwrap
+  - mbedtls_debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__cmsg_nxthdr.rs:
+  - std::ptr::null_mut
+  - std::mem::size_of::<cmsghdr>
+  - std::mem::size_of::<size_t>
+  - (cmsg as *mut u8).add
+  - ((*mhdr).msg_control as *mut u8).add
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atoll.rs:
+  - c_str.to_str
+  - nptr.is_null
+  - str_slice.parse::<i64>
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_max_frag_len.rs:
+  - std::cmp::min
+  - MbedtlsSslConfig::default
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_printf_ecdh_internal.rs:
+  - mbedtls_debug_print_mpi
+  - CString::new("ECDH: Qp").unwrap
+  - CString::new
+  - CString::new("ECDH: Q").unwrap
+  - CString::new("ECDH: z").unwrap
+  - mbedtls_debug_print_ecp
+  - CString::new(file).unwrap
+  - file_cstr.as_ptr
+  - text_cstr.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_id.rs:
+  - mbedtls_ssl_ciphersuite_from_string
+  - bindings
+        .write_to_file(out_path.join("bindings.rs"))
+        .expect
+  - ciphersuite_name_c.as_ptr
+  - std::path::PathBuf::from
+  - bindgen::Builder::default
+  - std::env::var
+  - std::ffi::CString::new(ciphersuite_name).unwrap
+  - cur.is_null
+  - bindgen::Builder::default()
+        .header
+  - bindgen::Builder::default()
+        .header("path/to/header.h")
+        // Finish the builder and generate the bindings.
+        .generate
+  - std::ffi::CString::new
+  - std::env::var("OUT_DIR").unwrap
+  - bindgen::Builder::default()
+        .header("path/to/header.h")
+        // Finish the builder and generate the bindings.
+        .generate()
+        // Unwrap the Result and panic on failure.
+        .expect
+  - bindings
+        .write_to_file
+  - out_path.join
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_alpn_ext00.rs:
+  - (*p).is_null
+  - mbedtls_ssl_send_alert_message
+  - file.as_ptr
+  - CString::new
+  - CString::new("ssl_cli.c").unwrap
+  - memcmp
+  - CString::new("ALPN extension: no matching protocol").unwrap
+  - (*(*ssl).conf).alpn_list.is_null
+  - mbedtls_debug_print_msg
+  - buf.add(2).read
+  - CString::new("non-matching ALPN extension").unwrap
+  - p.add
+  - buf.add(1).read
+  - msg.as_ptr
+  - buf.read
+  - buf.add
+  - strlen
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls.rs:
+  - hash[16..].copy_from_slice
+  - md5.finalize_reset
+  - ssl.handshake.fin_md5.clone
+  - hash[..16].copy_from_slice
+  - ssl.debug_print_buf
+  - ssl.handshake.fin_sha1.clone
+  - sha1.finalize_reset
+  - ssl.debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_min_version.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_cache.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_sni.rs:
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_data", &self.t_data)
+            .field("T", &self.T)
+            .field("T_size", &self.T_size)
+            .finish
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field
+  - std::ptr::null_mut
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field
+  - self.t_post.map
+  - f.debug_struct
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_data", &self.t_data)
+            .field("T", &self.T)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field
+  - self.t_pre.map
+  - self.modp.map
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, &mut ()) -> i32"))
+            .field("t_data", &self.t_data)
+            .field
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_extended_ms_ext.rs:
+  - CStr::from_bytes_with_nul(b"ssl_srv.c\0").unwrap
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_bytes_with_nul(b"server hello, adding extended master secret extension\0").unwrap
+  - CStr::from_bytes_with_nul
+  - mbedtls_debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_set_timeout.rs:
+  - Duration::from_secs
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_hostname_ext.rs:
+  - hostname.len
+  - Err
+  - buf[p..p + hostname_len].copy_from_slice
+  - buf.len
+  - Ok
+  - Some
+  - "example.com".to_string
+  - ssl.hostname.as_ref().unwrap
+  - hostname.as_bytes
+  - ssl.hostname.as_ref
+  - ssl.hostname.is_none
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ciphersuites.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_save.rs:
+  - buf.len
+  - ssl_session_save
+  - buf.as_mut_ptr
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_srv_cert.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_memcpy_offset.rs:
+  - dst[..len].copy_from_slice
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_update_handshake_status.rs:
+  - memset
+  - hs.is_null
+  - update_checksum
+  - ptr::read
+  - ssl_buffering_free_slot
+  - mem::size_of::<MbedtlsSslHsBuffer>
+  - ptr::write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_prepare_server_key_exchange.rs:
+  - Ok
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_ec.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read.rs:
+  - buf.len
+  - ssl.in_offt.is_none
+  - ptr::write_bytes
+  - Ok
+  - Some
+  - buf.as_mut_ptr
+  - ssl.conf.as_ref
+  - f_get_timer
+  - ptr::copy_nonoverlapping
+  - mbedtls_ssl_hs_hdr_len
+  - ssl.conf.is_none
+  - ssl.in_offt.unwrap().add
+  - ssl.conf.as_ref().unwrap
+  - ssl.in_offt.unwrap
+  - Err
+  - ssl.in_msg.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_peer_crt_unchanged.rs:
+  - crt_buf.len
+  - ptr::null
+  - memcmp
+  - crt_buf.as_ptr
+  - peer_crt.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_free.rs:
+  - self.handshake.take
+  - Some
+  - Box::new
+  - psk.fill
+  - drop
+  - cert.next.take
+  - ssl_context.mbedtls_ssl_handshake_free
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_renegotiation_info00.rs:
+  - buf.len
+  - b.len
+  - a.len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_own_cert.rs:
+  - Ok
+  - NonNull::dangling
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_context_load.rs:
+  - buf.len
+  - ssl.get_peer_certificates
+  - Ok
+  - p.len
+  - SSL_SERIALIZED_CONTEXT_HEADER.len
+  - ssl.get_protocol_version
+  - ssl.set_alpn_protocol
+  - ssl.get_peer_certificates().is_some
+  - ssl.is_handshaking
+  - ssl.get_protocol_version().is_none
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_has_psk_or_cb.rs:
+  - conf.psk.is_null
+  - conf.f_psk.is_some
+  - conf.psk_identity.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_sha256.rs:
+  - ssl.handshake.fin_sha256.update
+  - ssl_context.handshake.fin_sha256.finalize
+  - Sha256::new
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_total_len.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_16.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_flight_append.rs:
+  - msg2.as_ptr
+  - Layout::new::<MbedtlsSslFlightItem>
+  - msg4.as_ptr
+  - msg1.as_ptr
+  - std::ptr::null_mut
+  - Layout::from_size_align((*ssl).out_msglen, mem::align_of::<u8>()).unwrap
+  - file.as_ptr
+  - CString::new
+  - msg_data_ptr.is_null
+  - mbedtls_debug_print_msg
+  - (*cur).next.is_null
+  - mem::align_of::<u8>
+  - mbedtls_debug_print_buf
+  - msg3.as_ptr
+  - CString::new("message appended to flight").unwrap
+  - alloc
+  - ptr::copy_nonoverlapping
+  - CString::new("=> ssl_flight_append").unwrap
+  - (*(*ssl).handshake).flight.is_null
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new("<= ssl_flight_append").unwrap
+  - msg_ptr.is_null
+  - CString::new("alloc %d bytes failed").unwrap
+  - Layout::from_size_align
+  - mem::size_of::<MbedtlsSslFlightItem>
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_remove_psk.rs:
+  - conf.psk.is_null
+  - ptr::null_mut
+  - Box::from_raw
+  - slice::from_raw_parts_mut
+  - conf.psk_identity.is_null
+  - mbedtls_platform_zeroize
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls_sha256.rs:
+  - hash.copy_from_slice
+  - Context::new
+  - digest.as_ref
+  - sha256.update
+  - sha256.finish
+  - env_logger::init
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_reset.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_set_timeout.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_current_mtu.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_update.rs:
+  - bytes.iter().take
+  - u64::from
+  - bytes.iter
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_type.rs:
+  - Box::new
+  - Some
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_from_pk_alg.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_validate_ciphersuite.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_setup.rs:
+  - Err
+  - Ok
+  - ctx.set_ticket_lifetime
+  - CipherInfo::from_type
+  - CipherInfo::from_type(cipher).ok_or
+  - cipher_info.mode
+  - ctx.set_rng
+  - ctx.setup
+  - OsEntropy::default
+  - cipher_info.key_bitlen
+  - TicketContext::new
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_tickets_cb.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_certificate.rs:
+  - debug_print_crt
+  - ptr::copy_nonoverlapping
+  - write_handshake_msg
+  - ssl.out_msg.as_mut_ptr().add
+  - debug_print_msg
+  - ssl.out_msg.as_mut_ptr
+  - mbedtls_ssl_own_cert
+  - debug_print_ret
+  - mbedtls_ssl_own_cert(ssl).is_null
+  - crt.is_null
+  - mbedtls_ssl_ciphersuite_uses_srv_cert
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_elliptic_curves.rs:
+  - p.offset
+  - mbedtls_ssl_send_alert_message
+  - curves.add
+  - b"ssl_srv.c\0".as_ptr
+  - mbedtls_debug_print_msg
+  - buf.offset
+  - p.add
+  - alloc_zeroed
+  - curve_info.is_null
+  - b"bad client hello message\0".as_ptr
+  - Layout::array::<*const MbedtlsEcpCurveInfo>(our_size).unwrap
+  - (*(*ssl).handshake).curves.is_null
+  - buf.add
+  - Layout::array::<*const MbedtlsEcpCurveInfo>
+  - mbedtls_ecp_curve_info_from_tls_id
+  - curves.is_null
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_max_version.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake.rs:
+  - unsafe { (*ssl).conf }.is_null
+  - CStr::from_bytes_with_nul_unchecked(b"=> handshake\0").as_ptr
+  - ptr::null
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_tls.c\0").as_ptr
+  - ssl.is_null
+  - CStr::from_bytes_with_nul_unchecked(b"<= handshake\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_handshake_step
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_init.rs:
+  - MbedtlsCipherContext::new
+  - transform.is_null
+  - MbedtlsSslTransform::new
+  - MbedtlsMdContext::new
+  - ptr::write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/debug_print_pk.rs:
+  - mbedtls_debug_print_mpi
+  - mbedtls_pk_debug
+  - CString::new("should not happen\n").unwrap().as_ptr
+  - write!(&mut name, "{}{}", text, unsafe { CString::from_raw(item.name as *mut i8).to_str().unwrap() }).unwrap
+  - CString::new("invalid PK context\n").unwrap
+  - CString::new
+  - debug_send_line
+  - items.as_mut_ptr
+  - String::with_capacity
+  - name_cstr.as_ptr
+  - name.truncate
+  - CString::new(text).unwrap
+  - CString::new(name).unwrap
+  - std::mem::zeroed
+  - CString::new("should not happen\n").unwrap
+  - file_cstr.as_ptr
+  - mbedtls_debug_print_ecp
+  - CString::new(file).unwrap
+  - CString::new("invalid PK context\n").unwrap().as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_update_checksum_start.rs:
+  - ssl_context.ssl_update_checksum_start
+  - self.handshake.fin_md5.update
+  - Md5::new
+  - Sha256::new
+  - Sha1::new
+  - Sha512::new
+  - self.handshake.fin_sha512.update
+  - self.handshake.fin_sha256.update
+  - self.handshake.fin_sha1.update
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_block_size.rs:
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field
+  - self.add_padding.map
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field("iv_size", &self.iv_size)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field("iv_size", &self.iv_size)
+            .field("cipher_ctx", &self.cipher_ctx)
+            .finish
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field
+  - self.get_padding.map
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field
+  - f.debug_struct
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_signature_algorithms_ext.rs:
+  - buf.len
+  - mbedtls_ssl_md_alg_from_hash
+  - mbedtls_ssl_send_alert_message
+  - md_cur.clone
+  - mbedtls_ssl_sig_hash_set_add
+  - mbedtls_ssl_pk_alg_from_sig
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_check_sig_hash
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_write_dummy.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_write.rs:
+  - buffer.as_mut_ptr
+  - p.offset
+  - cli_id.is_null
+  - p.add
+  - SystemTime::now().duration_since
+  - duration.as_secs
+  - cli_id.len
+  - cli_id.as_ptr
+  - p_ctx.is_null
+  - SystemTime::now
+  - buffer.len
+  - ptr::write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_own_cert.rs:
+  - Certificate::from_pem(b"-----BEGIN CERTIFICATE-----\n...").unwrap
+  - Pk::from_private_key(b"-----BEGIN PRIVATE KEY-----\n...").unwrap
+  - Certificate::from_pem
+  - conf.set_own_cert
+  - Config::new
+  - Pk::from_private_key
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cert_req_ca_list.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_mtu.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_dhe.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_max_frag_len.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_session_ticket_ext.rs:
+  - mbedtls_ssl_session_init
+  - ((*ssl).conf.f_ticket_parse.unwrap())
+  - (*ssl).conf.f_ticket_parse.is_none
+  - std::mem::zeroed
+  - ptr::copy_nonoverlapping
+  - std::mem::size_of::<mbedtls_ssl_session>
+  - mbedtls_ssl_session_free
+  - (*ssl).session_negotiate.id.as_ptr
+  - (*ssl).conf.f_ticket_write.is_none
+  - (*ssl).conf.f_ticket_parse.unwrap
+  - mbedtls_platform_zeroize
+  - session.id.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_recv.rs:
+  - e.raw_os_error
+  - unsafe { File::from_raw_fd(fd) }.read
+  - File::from_raw_fd
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_alpn_ext.rs:
+  - ssl.alpn_chosen.is_null
+  - CStr::from_ptr(ssl.alpn_chosen).to_bytes().len
+  - alpn_chosen.as_ptr
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_ptr(ssl.alpn_chosen).to_bytes
+  - std::ffi::CString::new
+  - CStr::from_bytes_with_nul
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul(b"ssl_srv.c\0").unwrap
+  - ptr::copy_nonoverlapping
+  - std::ffi::CString::new("http/1.1").unwrap
+  - CStr::from_ptr
+  - CStr::from_bytes_with_nul(b"server hello, adding alpn extension\0").unwrap
+  - buf[7..].as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_connect.rs:
+  - Some
+  - MbedtlsNetContext::new
+  - std::ffi::CString::new("80").unwrap
+  - socket.connect(addr).is_ok
+  - ctx.is_null
+  - port.as_ptr
+  - std::ffi::CString::new
+  - CStr::from_ptr(host).to_str
+  - TcpStream::connect
+  - addrs.collect
+  - host.is_null
+  - socket.connect
+  - CStr::from_ptr(port).to_str
+  - CStr::from_ptr(host).to_str().unwrap_or
+  - host.as_ptr
+  - port.is_null
+  - UdpSocket::bind
+  - std::ffi::CString::new("example.com").unwrap
+  - CStr::from_ptr(port).to_str().unwrap_or
+  - addr.to_socket_addrs
+  - CStr::from_ptr
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_hash_set_add.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_buf.rs:
+  - unsafe { (*ssl).conf }.is_null
+  - buf_slice.iter
+  - txt.fill
+  - write!(str, " {:02x}", byte).unwrap
+  - buf_slice.iter().enumerate
+  - CStr::from_ptr(text).to_str
+  - CStr::from_ptr(text).to_str().unwrap_or
+  - write!(str, "dumping '{}' ({} bytes)\n", text, len).unwrap
+  - write!(str, "{:04x}: ", i).unwrap
+  - debug_send_line
+  - String::with_capacity
+  - str.as_ptr
+  - unsafe { (*(*ssl).conf).f_dbg }.is_none
+  - slice::from_raw_parts
+  - write!(str, "   ").unwrap
+  - write!(str, "  {}\n", std::str::from_utf8(&txt).unwrap_or("")).unwrap
+  - ssl.is_null
+  - str.clear
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_memcpy_if_eq.rs:
+  - std::mem::size_of::<usize>
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cbc_record_splitting.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_get_type.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_msg.c\0").as_ptr
+  - ssl_check_ctr_renegotiate
+  - ssl_write_split
+  - CStr::from_bytes_with_nul_unchecked(b"=> write\0").as_ptr
+  - (*ssl).conf.is_null
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_handshake
+  - CStr::from_bytes_with_nul_unchecked(b"<= write\0").as_ptr
+  - ssl.is_null
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_ctr_renegotiate\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_handshake\0").as_ptr
+  - mbedtls_debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_ecdh_params.rs:
+  - p.as_ptr
+  - b"bad server key exchange message (ECDHE curve)\0".as_ptr
+  - Ok
+  - mbedtls_debug_print_ret
+  - mbedtls_ecdh_read_params
+  - ptr::null_mut
+  - ssl_check_server_ecdh_params
+  - b"ssl_cli.c\0".as_ptr
+  - mbedtls_debug_print_msg
+  - b"mbedtls_ecdh_read_params\0".as_ptr
+  - Err
+  - end.as_ptr
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_ca_chain.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cf_hmac.rs:
+  - ctx.update
+  - Ok
+  - output.copy_from_slice
+  - hmac::Key::new
+  - hmac::Context::with_key
+  - ctx.clone
+  - ctx.sign
+  - aux_ctx.sign
+  - aux_out.as_ref
+  - final_tag.as_ref
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_coordinate.rs:
+  - ssl.handshake.as_ref().unwrap().ciphersuite_info.as_ref().unwrap
+  - ssl.handshake.as_ref
+  - ssl.handshake.as_ref().unwrap
+  - ssl.handshake.as_ref().unwrap().ciphersuite_info.as_ref
+  - ssl.session_negotiate.as_mut().unwrap
+  - ssl.session_negotiate.as_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_renegotiate.rs:
+  - ssl.conf.as_ref().unwrap
+  - ssl.conf.is_none
+  - ssl.conf.as_ref
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_cert_req_allowed.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_export_keys_cb.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_context_save.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_server_signature.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ciphersuite_match.rs:
+  - suite_info.min_minor_ver
+  - Ok
+  - suite_info.flags
+  - Ciphersuite::from_id(suite_id).ok_or
+  - ssl.handshake
+  - ssl.set_ciphersuite_info
+  - ssl.conf().has_psk_or_cb
+  - suite_info.cipher
+  - suite_info.uses_ec
+  - ssl.pick_cert(suite_info).is_err
+  - ssl.handshake().curves.unwrap().is_empty
+  - suite_info.sig_alg
+  - debug_print_msg
+  - ssl.minor_ver
+  - ssl.pick_cert
+  - ssl.conf
+  - suite_info.max_minor_ver
+  - ssl.handshake().hash_algs.find
+  - Ciphersuite::from_id
+  - ssl.handshake().curves.is_none
+  - ssl.handshake().curves.unwrap
+  - suite_info.uses_psk
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls_sha384.rs:
+  - ssl.session_negotiate.as_ref
+  - Some
+  - sha512.clone_from
+  - ssl.handshake.tls_prf
+  - padbuf.iter_mut().for_each
+  - ssl.session_negotiate.as_ref().unwrap
+  - Context::new
+  - ssl.session.as_ref
+  - ssl.session_negotiate.is_some
+  - result.as_ref
+  - padbuf.iter_mut
+  - padbuf.copy_from_slice
+  - sha512.finish
+  - ssl.session.as_ref().unwrap
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint64_identity.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_supported_point_formats_ext.rs:
+  - buf.len
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - p.is_empty
+  - mbedtls_ssl_send_alert_message
+  - CStr::from_bytes_with_nul_unchecked(b"point format selected: %d\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"bad server hello message\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+  - buf.is_empty
+  - CStr::from_bytes_with_nul_unchecked(b"no point format in common\0").as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_signature_algorithm.rs:
+  - p.len
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__bswap_64.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_close.rs:
+  - File::from_raw_fd
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_hello.rs:
+  - suite_info.unwrap
+  - Ok
+  - ssl.handshake
+  - SystemTime::now
+  - Err
+  - ssl.in_msg
+  - ssl.optimize_checksum
+  - ssl.conf
+  - ssl.renego_status
+  - ssl_parse_encrypt_then_mac_ext00
+  - ssl.derive_keys
+  - SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_secs
+  - mbedtls_ssl_ciphersuite_from_id
+  - ssl_parse_extended_ms_ext00
+  - ssl_parse_alpn_ext00
+  - SystemTime::now().duration_since
+  - suite_info.is_none
+  - mbedtls_ssl_hs_hdr_len
+  - ssl_parse_hello_verify_request
+  - ssl_parse_max_fragment_length_ext00
+  - ssl_parse_renegotiation_info00
+  - ssl_parse_supported_point_formats_ext
+  - ssl.handshake().randbytes[32..64].copy_from_slice
+  - ssl_validate_ciphersuite
+  - ssl_parse_session_ticket_ext00
+  - ssl.read_record
+  - ssl.in_msgtype
+  - ssl.session_negotiate().id.copy_from_slice
+  - ssl.send_alert_message
+  - ssl.in_hslen
+  - SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap
+  - ssl_parse_truncated_hmac_ext00
+  - ssl.session_negotiate
+  - ssl.read_version
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_generic.rs:
+  - ctx.update
+  - Ok
+  - dstbuf.len
+  - tmp[md_len + label.len()..].copy_from_slice
+  - tmp_hmac.iter_mut().for_each
+  - label.len
+  - ctx.sign().as_ref().to_vec
+  - hmac::Key::new
+  - tmp[md_len..md_len + label.len()].copy_from_slice
+  - (0..dstbuf.len()).step_by
+  - tmp.iter_mut
+  - md_type.digest_algorithm
+  - random.len
+  - ctx.sign().as_ref
+  - label.as_bytes
+  - hmac::Context::with_key
+  - tmp.iter_mut().for_each
+  - ctx.sign
+  - tmp_hmac.iter_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_max_fragment_length_ext.rs:
+  - Box::new
+  - Some
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_ca_chain.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_frag_off.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_handshake_params_init.rs:
+  - MbedtlsSslHandshakeParams::new
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_real.rs:
+  - buf.len
+  - Arc::new
+  - session.max_sendable_plaintext
+  - Ok
+  - io::Error::new
+  - rustls::ClientSession::new
+  - session.write_tls
+  - io::stdout
+  - rustls::ClientConfig::new
+  - webpki::DNSNameRef::try_from_ascii_str("example.com").unwrap
+  - webpki::DNSNameRef::try_from_ascii_str
+  - Err
+  - session.wants_write
+  - session.write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_future_record.rs:
+  - mbedtls_debug_print_buf
+  - alloc_zeroed
+  - (*hs).buffering.future_record.data.is_null
+  - hs.is_null
+  - "Buffer record from epoch %u\0".as_ptr
+  - "Buffered record\0".as_ptr
+  - "ssl_msg.c\0".as_ptr
+  - "Buffering of future epoch record of size %u would exceed the compile-time limit %u (already %u bytes buffered) -- ignore\n\0".as_ptr
+  - ptr::copy_nonoverlapping
+  - Layout::array::<u8>((*rec).buf_len).unwrap
+  - mbedtls_debug_print_msg
+  - Layout::array::<u8>
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_select_key.rs:
+  - Some
+  - NameWrapper
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_get.rs:
+  - (*entry).session.id.as_ptr
+  - SystemTime::now().duration_since
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs
+  - cur.is_null
+  - mbedtls_x509_crt_parse
+  - mbedtls_x509_crt_init
+  - SystemTime::now
+  - peer_cert.is_null
+  - slice::from_raw_parts
+  - alloc_zeroed
+  - ptr::null_mut
+  - Layout::new::<MbedtlsX509Crt>
+  - unsafe { (*entry).peer_cert.p }.is_null
+  - mbedtls_ssl_session_copy
+  - dealloc
+  - (*session).id.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_free.rs:
+  - self.ticket_lifetime.zeroize
+  - self.keys[0].ctx.free
+  - self.keys.zeroize
+  - ctx.free
+  - self.zeroize
+  - self.active.zeroize
+  - self.keys[1].ctx.free
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_decrypt_buf.rs:
+  - Ok
+  - rec.buf.is_empty
+  - iv[transform.ivlen..].copy_from_slice
+  - Nonce::assume_unique_for_key
+  - key.open_in_place
+  - iv[..transform.ivlen].copy_from_slice
+  - Aad::from
+  - Err
+  - dynamic_iv.len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_fatal_handshake_failure.rs:
+  - mbedtls_ssl_send_alert_message
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_renegotiation_info.rs:
+  - buf.len
+  - ssl.peer_verify_data.as_ptr
+  - mbedtls_ssl_send_alert_message
+  - msg.as_ptr
+  - CString::new("ssl_srv.c").unwrap
+  - file.as_ptr
+  - CString::new("non-zero length renegotiation info").unwrap
+  - CString::new("non-matching renegotiation info").unwrap
+  - CString::new
+  - buf.as_ptr().add
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_safer_memcmp
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_safer_memcmp.rs:
+  - a.add
+  - b.add
+  - ptr::read_volatile
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_reset.rs:
+  - String::from
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_hs_is_proper_fragment.rs:
+  - s1.add
+  - s2.add
+  - in_msg.as_ptr
+  - b"\0\0\0".as_ptr
+  - ssl.in_msg.add
+  - a.cmp
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/fputc_unlocked.rs:
+  - stream.write_all
+  - Ok
+  - File::create
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_name.rs:
+  - Some
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field
+  - ctx.cipher_info.is_null
+  - f.debug_struct
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field("iv_size", &self.iv_size)
+            .field
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field("iv_size", &self.iv_size)
+            .field("cipher_ctx", &self.cipher_ctx)
+            .finish
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field("iv", &self.iv)
+            .field
+  - self.get_padding.map
+  - f.debug_struct("MbedtlsCipherContext")
+            .field("cipher_info", &self.cipher_info)
+            .field("key_bitlen", &self.key_bitlen)
+            .field("operation", &self.operation)
+            .field("add_padding", &self.add_padding.map(|_| "fn"))
+            .field("get_padding", &self.get_padding.map(|_| "fn"))
+            .field("unprocessed_data", &self.unprocessed_data)
+            .field("unprocessed_len", &self.unprocessed_len)
+            .field
+  - self.add_padding.map
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_reset_checksum.rs:
+  - Context::new
+  - ssl_context.reset_checksum
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_step.rs:
+  - mbedtls_ssl_handshake_client_step
+  - unsafe { (*ssl).conf }.is_null
+  - ssl.is_null
+  - mbedtls_ssl_handshake_server_step
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/__uint16_identity.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param_ctx.rs:
+  - Ok
+  - conf.dhm_G.copy
+  - MbedtlsDhmContext::default
+  - conf.dhm_G.free
+  - conf.dhm_P.free
+  - conf.dhm_P.copy
+  - Err
+  - MbedtlsSslConfig::default
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_msg.rs:
+  - (*ssl).conf.is_null
+  - std::fmt::write
+  - std::ffi::VaList::new
+  - CStr::from_ptr(format).to_str
+  - ssl.is_null
+  - (*(*ssl).conf).f_dbg.is_none
+  - CStr::from_ptr(format).to_str().unwrap_or
+  - debug_send_line
+  - CStr::from_ptr
+  - str.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_alpn_protocol.rs:
+  - ssl.alpn_chosen.is_null
+  - Some
+  - std::ptr::null
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_verify_tls_sha384.rs:
+  - Sha512::new
+  - hash.copy_from_slice
+  - sha512.finalize
+  - sha512.clone_from
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypt_then_mac_ext00.rs:
+  - buf.len
+  - mbedtls_ssl_send_alert_message
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ciphersuite_is_removed.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_hs_frag_len.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atof.rs:
+  - nptr.parse::<f64>
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_next_record_is_in_datagram.rs:
+  - std::ptr::null_mut
+  - std::ptr::null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_session.rs:
+  - ssl_ref.session.is_null
+  - ssl.is_null
+  - dst.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dh_param.rs:
+  - Ok
+  - dhm_p_mpi.read_string
+  - Config::new
+  - conf.set_dh_param
+  - dhm_p_mpi.free
+  - Mpi::new
+  - dhm_g_mpi.read_string
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_curve.rs:
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_point_formats_ext.rs:
+  - p.offset
+  - b"server hello, supported_point_formats extension\0".as_ptr
+  - buf.as_mut_ptr
+  - std::ptr::null_mut
+  - b"ssl_srv.c\0".as_ptr
+  - mbedtls_debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_certificate.rs:
+  - ssl_parse_certificate_coordinate
+  - Some
+  - mbedtls::ssl::read_record
+  - mbedtls::debug::print_msg
+  - MbedtlsX509Crt::new
+  - mbedtls::x509::crt_init
+  - chain.is_none
+  - mbedtls::debug::print_ret
+  - ssl_parse_certificate_verify
+  - chain.clone
+  - mbedtls::ssl::send_alert_message
+  - mbedtls::x509::crt_free
+  - ssl_srv_check_client_no_crt_notification
+  - ssl_parse_certificate_chain
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_in_hdr_len.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_init.rs:
+  - ptr::write_bytes
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_server_key_exchange.rs:
+  - session.writer().write_all
+  - Ok
+  - out_msg.extend_from_slice
+  - session.get_protocol_version
+  - "Error preparing server key exchange".to_string
+  - MessagePayload::Handshake
+  - Err
+  - HandshakePayload::ServerKeyExchange
+  - session.get_state
+  - session.set_state
+  - "No ciphersuite".to_string
+  - out_msg.push
+  - session.writer
+  - session.get_negotiated_ciphersuite().ok_or
+  - session.get_negotiated_ciphersuite
+  - msg.get_encoding
+  - rustls::TLSError::General
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_timer.rs:
+  - ssl.f_get_timer.unwrap
+  - std::ptr::null_mut
+  - b"ssl_msg.c\0".as_ptr
+  - (ssl.f_get_timer.unwrap())
+  - b"timer expired\0".as_ptr
+  - mbedtls_debug_print_msg
+  - ssl.f_get_timer.is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_accept.rs:
+  - Some
+  - Ok
+  - io::Error::new
+  - bind_ctx.accept
+  - ip_bytes.len
+  - addr_v4.ip().octets
+  - client_ip[..ip_bytes.len()].copy_from_slice
+  - addr_v4.ip
+  - client_ip.len
+  - TcpListener::bind
+  - Err
+  - addr_v6.ip().octets
+  - addr_v6.ip
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_extended_ms_ext.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_tls_prf.rs:
+  - tls_prf
+  - Err
+  - Ok
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_parse.rs:
+  - buf.len
+  - ssl_ticket_select_key(ctx, key_name).ok_or
+  - Some
+  - SystemTime::now().duration_since
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs
+  - ctx.is_null
+  - SystemTime::now
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_session_ticket_ext00.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - mbedtls_ssl_send_alert_message
+  - CStr::from_bytes_with_nul_unchecked(b"non-matching session ticket extension\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_fallback.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_list_ciphersuites.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_extract_add_data_from_record.rs:
+  - rec.ver.len
+  - rec.ctr.len
+  - ptr::null_mut
+  - add_data[cur..cur + rec.ver.len()].copy_from_slice
+  - add_data[cur..cur + rec.ctr.len()].copy_from_slice
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ecdh.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_finished.rs:
+  - (*ssl).peer_verify_data.as_mut_ptr
+  - mbedtls_ssl_send_alert_message
+  - mbedtls_ssl_recv_flight_completed
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_tls.c\0").as_ptr
+  - mbedtls_ssl_hs_hdr_len
+  - CStr::from_bytes_with_nul_unchecked(b"<= parse finished\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_read_record\0").as_ptr
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"=> parse finished\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"bad finished message\0").as_ptr
+  - calc_finished
+  - buf.as_mut_ptr
+  - mbedtls_debug_print_ret
+  - ptr::copy_nonoverlapping
+  - mbedtls_ssl_read_record
+  - (*ssl).in_msg.add
+  - mbedtls_ssl_safer_memcmp
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_output_max_frag_len.rs:
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypt_then_mac_ext00.rs:
+  - buf.as_mut_ptr
+  - p.add
+  - b"client hello, adding encrypt_then_mac extension\0".as_ptr
+  - ptr::null
+  - b"ssl_cli.c\0".as_ptr
+  - buffer.as_ptr().add
+  - buffer.as_ptr
+  - mbedtls_debug_print_msg
+  - buffer.len
+  - mbedtls_ssl_chk_buf_ptr
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_rng.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_name.rs:
+  - ALL_CIPHERSUITES.iter
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_printf_ecdh.rs:
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_data", &self.t_data)
+            .field("T", &self.T)
+            .field("T_size", &self.T_size)
+            .finish
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field
+  - std::ptr::null_mut
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_data", &self.t_data)
+            .field("T", &self.T)
+            .field
+  - self.t_post.map
+  - f.debug_struct
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_data", &self.t_data)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field("t_post", &self.t_post.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field("h", &self.h)
+            .field("modp", &self.modp.map(|_| "fn(&mut MbedtlsMpi) -> i32"))
+            .field("t_pre", &self.t_pre.map(|_| "fn(&mut MbedtlsEcpPoint, *mut c_void) -> i32"))
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field
+  - self.t_pre.map
+  - self.modp.map
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field
+  - f.debug_struct("MbedtlsEcpGroup")
+            .field("id", &self.id)
+            .field("P", &self.P)
+            .field("A", &self.A)
+            .field("B", &self.B)
+            .field("G", &self.G)
+            .field("N", &self.N)
+            .field("pbits", &self.pbits)
+            .field("nbits", &self.nbits)
+            .field
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_ecdh_params_from_cert00.rs:
+  - peer_pk.ec_key
+  - Ok
+  - ecdh_ctx.set_params
+  - peer_pk.ec_key().ok_or
+  - peer_cert.public_key
+  - ssl.handshake().ecdh_ctx
+  - ssl.session().peer_cert
+  - ssl.handshake
+  - Context::new
+  - ssl.session
+  - ssl.session().peer_cert().ok_or
+  - peer_pk.can_do
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_sha256.rs:
+  - dstbuf.iter_mut().enumerate
+  - Err
+  - Ok
+  - dstbuf.iter_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_flight_transmit.rs:
+  - ssl.handshake.flight.p.add
+  - ssl_swap_epochs
+  - Ok
+  - Some
+  - cur.p.add
+  - std::ptr::null
+  - ssl.out_msg.as_mut_ptr
+  - mbedtls_ssl_write_record
+  - mbedtls_debug_print_msg
+  - p.offset_from
+  - Err
+  - memcpy
+  - mbedtls_debug_print_buf
+  - next.p.add
+  - mbedtls_debug_print_ret
+  - ssl_get_remaining_payload_in_datagram
+  - ssl.out_msg.as_mut_ptr().add
+  - mbedtls_ssl_set_timer
+  - mbedtls_ssl_flush_output
+  - ssl.handshake.cur_msg_p.add
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_bio.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read_version.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_read_timeout.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls_prf_sha384.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypt_then_mac_ext.rs:
+  - ssl.minor_ver
+  - Ok
+  - ssl.session_negotiate_mut
+  - ssl.session_negotiate_mut().set_encrypt_then_mac
+  - ssl.conf
+  - ssl.send_alert_message
+  - buf.is_empty
+  - Err
+  - debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_hello_verify_request.rs:
+  - ssl.as_mut().unwrap
+  - msg4.as_ptr
+  - msg1.as_ptr
+  - ssl.as_ref().unwrap
+  - CString::new("=> parse hello verify request").unwrap
+  - ssl.as_ref
+  - mbedtls_ssl_send_alert_message
+  - ssl.as_ref().unwrap().conf.as_ref().unwrap
+  - mbedtls_ssl_recv_flight_completed
+  - CString::new
+  - CString::new("ssl_cli.c").unwrap
+  - ssl.as_ref().unwrap().conf.as_ref
+  - CString::new("cookie length does not match incoming message size").unwrap
+  - mbedtls_debug_print_msg
+  - ssl.as_ref().unwrap().handshake.as_ref().unwrap
+  - Layout::array::<u8>
+  - ssl.as_mut().unwrap().handshake.as_mut
+  - mbedtls_debug_print_buf
+  - msg3.as_ptr
+  - p.add
+  - ptr::copy_nonoverlapping
+  - buf_msg.as_ptr
+  - buf_msg2.as_ptr
+  - mbedtls_ssl_reset_checksum
+  - Layout::array::<u8>(cookie_len as usize).unwrap
+  - msg6.as_ptr
+  - CString::new("bad server version").unwrap
+  - CString::new("alloc failed").unwrap
+  - dealloc
+  - msg2.as_ptr
+  - ssl.as_mut().unwrap().handshake.as_mut().unwrap
+  - ssl.as_ref().unwrap().handshake.as_ref().unwrap().verify_cookie.is_null
+  - mbedtls_ssl_hs_hdr_len
+  - file.as_ptr
+  - verify_cookie.is_null
+  - CString::new("<= parse hello verify request").unwrap
+  - CString::new("cookie").unwrap
+  - ssl.as_ref().unwrap().handshake.as_ref
+  - msg5.as_ptr
+  - CString::new("incoming HelloVerifyRequest message is too short").unwrap
+  - ssl.as_ref().unwrap().in_msg.add
+  - Layout::array::<u8>(ssl.as_ref().unwrap().handshake.as_ref().unwrap().verify_cookie_len as usize).unwrap
+  - alloc_zeroed
+  - ssl.as_mut
+  - mbedtls_ssl_read_version
+  - CString::new("server version").unwrap
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_srv_check_client_no_crt_notification.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_buffered_record.rs:
+  - msg2.as_ptr
+  - msg4.as_ptr
+  - ssl_next_record_is_in_datagram
+  - msg1.as_ptr
+  - hs.is_null
+  - CString::new("Buffered record not from current epoch.").unwrap
+  - ssl_free_buffered_record
+  - file.as_ptr
+  - CString::new
+  - rec.is_null
+  - mbedtls_debug_print_msg
+  - CString::new("<= ssl_load_buffered_record").unwrap
+  - memcpy
+  - msg3.as_ptr
+  - CString::new("=> ssl_load_buffered_record").unwrap
+  - msg.as_ptr
+  - CString::new("should never happen").unwrap
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new("Found buffered record from current epoch - load").unwrap
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_version.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ferror_unlocked.rs:
+  - file.take
+  - Ok
+  - file.take(1).read
+  - e.kind
+  - File::open
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_timer_cb.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_ecdh_params_from_cert.rs:
+  - own_key.ec_keypair().ok_or
+  - own_key.can_do
+  - ssl.handshake_mut
+  - ssl.handshake_mut().ecdh_ctx_mut
+  - ecdh_ctx.set_params
+  - Ok
+  - ssl.own_key().ok_or
+  - ssl.own_key
+  - own_key.ec_keypair
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_dtls_clihlo_cookie.rs:
+  - copy_nonoverlapping
+  - f_cookie_write
+  - Ok
+  - in_buf.as_ptr
+  - cli_id.len
+  - in_buf.len
+  - cli_id.as_ptr
+  - f_cookie_check
+  - obuf.as_ptr
+  - obuf.as_mut_ptr().add
+  - obuf.len
+  - Err
+  - obuf.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypt_then_mac_ext.rs:
+  - mbedtls_ssl_ciphersuite_from_id
+  - suite.is_null
+  - buf.as_mut_ptr
+  - mbedtls_cipher_info_from_type
+  - p.add
+  - b"server hello, adding encrypt then mac extension\0".as_ptr
+  - cipher.is_null
+  - b"ssl_srv.c\0".as_ptr
+  - mbedtls_debug_print_msg
+  - ptr::write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_certificate_request.rs:
+  - ssl.handshake
+  - c.version
+  - ssl.conf().ca_chain
+  - ssl.conf().sig_hashes
+  - ssl.set_state
+  - ssl.minor_ver
+  - p.add
+  - ptr::copy_nonoverlapping
+  - ssl.conf
+  - ssl.out_msg_mut
+  - ssl.conf().cert_req_ca_list
+  - buf.as_ptr
+  - c.next
+  - ssl.state
+  - ssl.out_msg().as_ptr
+  - c.subject_raw().len
+  - ssl.out_msg().as_ptr().add
+  - ssl.set_out_msgtype
+  - buf.as_mut_ptr().add
+  - ssl.handshake().unwrap().sni_ca_chain
+  - cur.add
+  - ssl.conf().authmode
+  - slice::from_raw_parts
+  - buf.as_mut_ptr
+  - p.sub
+  - c.subject_raw().as_ptr
+  - c.subject_raw
+  - ssl.handshake().unwrap
+  - ssl.set_out_msglen
+  - ssl.out_msg
+  - ssl.handshake().unwrap().sni_ca_chain().is_some
+  - ssl.handshake().unwrap().ciphersuite_info
+  - ssl.handshake().unwrap().sni_authmode
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_flight_completed.rs:
+  - ssl.get_in_msgtype
+  - ssl.get_in_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_maximum_datagram_size.rs:
+  - Arc::new
+  - rustls::ClientSession::new
+  - webpki::DNSNameRef::try_from_ascii_str("example.com").unwrap
+  - ssl.get_mtu
+  - ClientConfig::new
+  - webpki::DNSNameRef::try_from_ascii_str
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_reset_retransmit_timeout.rs:
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_session_ticket_ext.rs:
+  - p.offset
+  - buf.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_double_retransmit_timeout.rs:
+  - Once::new
+  - env_logger::builder
+  - INIT.call_once
+  - env_logger::builder().filter_level
+  - env_logger::builder().filter_level(LevelFilter::Debug).init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_verify.rs:
+  - std::ptr::null_mut
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_from_string.rs:
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls.rs:
+  - ssl.session_negotiate.as_ref
+  - sha1.finalize_into_reset
+  - Some
+  - md5.clone_from
+  - (ssl.handshake.as_ref().unwrap().tls_prf)
+  - padbuf.zeroize
+  - md5.finalize_into_reset
+  - Md5::new
+  - Sha1::new
+  - ssl.handshake.as_ref().unwrap
+  - ssl.session.as_ref
+  - sha1.clone_from
+  - ssl.session_negotiate.as_ref().or
+  - ssl.handshake.as_ref
+  - ssl.session_negotiate.as_ref().or(ssl.session.as_ref()).expect
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_rsa.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_cert_profile.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_new_session_ticket.rs:
+  - Ok
+  - ssl.conf.f_ticket_write
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putchar_unlocked.rs:
+  - handle.flush
+  - io::stdout
+  - stdout.lock
+  - handle.write_all
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_free_buffered_record.rs:
+  - hs.is_null
+  - ptr::drop_in_place
+  - ptr::null_mut
+  - (*hs).buffering.future_record.data.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_calc_finished_tls_sha256.rs:
+  - ssl.session_negotiate.as_ref
+  - sha256.state.len
+  - ssl.handshake.tls_prf
+  - ssl.session_negotiate.as_ref().unwrap
+  - Context::new
+  - ssl.session.as_ref
+  - ssl.session_negotiate.is_some
+  - buf.iter_mut
+  - sha256.clone_from
+  - sha256.finish
+  - ssl.session.as_ref().unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putchar.rs:
+  - handle.flush
+  - Ok
+  - io::stdout
+  - stdout.lock
+  - handle.write_all
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_setup.rs:
+  - b"ssl_tls.c\0".as_ptr
+  - ssl_handshake_init
+  - Layout::from_size_align(out_buf_len, 1).unwrap
+  - alloc
+  - b"alloc(%d bytes) failed\0".as_ptr
+  - ptr::null_mut
+  - (*ssl).out_buf.is_null
+  - ptr::null
+  - (*ssl).in_buf.is_null
+  - Layout::from_size_align(in_buf_len, 1).unwrap
+  - Layout::from_size_align
+  - mbedtls_debug_print_msg
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_new_session_ticket.rs:
+  - mbedtls_ssl_send_alert_message
+  - (*ssl).session.is_null
+  - Layout::array::<u8>(ticket_len).unwrap
+  - Layout::array::<u8>((*(*ssl).session).ticket_len).unwrap
+  - Layout::array::<u8>
+  - (*(*ssl).session).ticket.is_null
+  - alloc_zeroed
+  - ptr::null_mut
+  - ptr::copy_nonoverlapping
+  - ticket.is_null
+  - msg.add
+  - mbedtls_ssl_read_record
+  - mbedtls_platform_zeroize
+  - Layout::array::<u8>((*(*ssl).session_negotiate).ticket_len).unwrap
+  - (*ssl).in_msg.add
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hostname.rs:
+  - hostname.len
+  - existing_hostname.to_bytes().len
+  - Some
+  - CString::from_raw
+  - existing_hostname.to_bytes
+  - ptr::null_mut
+  - ssl.hostname.is_null
+  - CString::new
+  - c_hostname.into_raw
+  - existing_hostname.as_ptr
+  - mbedtls_platform_zeroize
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_curves.rs:
+  - curve_list.as_ptr
+  - config.mbedtls_ssl_conf_curves
+  - ptr::null
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_six_bytes.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ep_len.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_encrypted_pms.rs:
+  - OsEntropy::new
+  - ssl.session_negotiate.as_ref
+  - Ok
+  - s.peer_cert.as_ref
+  - ssl.session_negotiate.as_ref().and_then(|s| s.peer_cert.as_ref()).is_none
+  - rng.random(&mut p[2..48]).map_err
+  - ssl.session_negotiate.as_ref().unwrap
+  - ssl.session_negotiate.as_ref().unwrap().peer_cert.as_ref().unwrap
+  - ssl.session_negotiate.as_ref().unwrap().peer_cert.as_ref().unwrap().public_key
+  - ssl.conf.transport
+  - peer_pk.encrypt
+  - ssl.out_msg[offset..offset + len_bytes + encrypted_len].copy_from_slice
+  - peer_pk.can_do
+  - Err
+  - ssl.conf.max_major_ver
+  - rng.random
+  - CtrDrbg::new(OsEntropy::new(), None).map_err
+  - CtrDrbg::new
+  - ssl.conf.max_minor_ver
+  - peer_pk.encrypt(&p[..ssl.handshake.pmslen], &mut encrypted, &mut rng).map_err
+  - ssl.session_negotiate.as_ref().unwrap().peer_cert.as_ref
+  - ssl.session_negotiate.as_ref().and_then
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_load_buffered_message.rs:
+  - mbedtls_debug_print_buf
+  - hs.is_null
+  - ptr::copy_nonoverlapping
+  - mbedtls_debug_print_msg
+  - ssl.in_msg.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_renegotiation_ext00.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - buf.as_mut_ptr
+  - p.add
+  - CStr::from_bytes_with_nul_unchecked(b"client hello, adding renegotiation extension\0").as_ptr
+  - ptr::copy_nonoverlapping
+  - CStr::from_bytes_with_nul_unchecked
+  - ssl.own_verify_data.as_ptr
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_chk_buf_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_max_out_record_payload.rs:
+  - digest.as_ref().to_vec
+  - digest::digest
+  - digest.as_ref
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_psk_hint.rs:
+  - end.offset_from
+  - p.add
+  - ptr::null_mut
+  - msg.as_ptr
+  - file.as_ptr
+  - CString::new
+  - CString::new("ssl_cli.c").unwrap
+  - (*p).offset
+  - mbedtls_debug_print_msg
+  - CString::new("bad server key exchange message (psk_identity_hint length)").unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handle_message_type.rs:
+  - ssl.handshake.is_some
+  - Ok
+  - ssl.handshake.is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_renegotiation_ext.rs:
+  - buf[p..p + ssl.verify_data_len].copy_from_slice
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_max_fragment_length_ext00.rs:
+  - buf.len
+  - buf.as_mut_ptr
+  - p.add
+  - p.is_null
+  - buf.as_ptr().add
+  - end.is_null
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_client_key_exchange.rs:
+  - Ok
+  - mbedtls_ecdh_calc_secret
+  - ssl.out_msg.as_mut_ptr
+  - ssl_write_encrypted_pms
+  - mbedtls_dhm_make_public
+  - Err
+  - mem::size_of::<[u8; 1024]>
+  - mbedtls_ssl_ciphersuite_uses_psk
+  - ptr::copy_nonoverlapping
+  - ssl.out_msg.as_mut_ptr().add
+  - ssl.handshake.premaster.as_mut_ptr
+  - mbedtls_ssl_write_handshake_msg
+  - mbedtls_ecdh_make_public
+  - mbedtls_dhm_calc_secret
+  - mbedtls_ssl_psk_derive_premaster
+  - ssl_conf_has_static_psk
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_cipher_get_iv_size.rs:
+  - (*ctx).cipher_info.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/tls1_prf.rs:
+  - Ok
+  - Layout::from_size_align(tmp_len, 1).unwrap
+  - HmacSha1::new_from_slice(S2).unwrap
+  - hmac_md5.finalize
+  - dstbuf.len
+  - hmac_md5.finalize().into_bytes
+  - label.len
+  - slice::from_raw_parts_mut
+  - hmac_md5.update
+  - hmac_sha1.finalize
+  - (0..dlen).step_by
+  - Err
+  - HmacSha1::new_from_slice
+  - secret.len
+  - hmac_sha1.update
+  - tmp[20 + label.len()..20 + label.len() + random.len()].copy_from_slice
+  - ptr::write_bytes
+  - alloc_zeroed
+  - h_i.copy_from_slice
+  - random.len
+  - HmacMd5::new_from_slice(S1).unwrap
+  - tmp[20..20 + label.len()].copy_from_slice
+  - label.as_bytes
+  - hmac_sha1.finalize().into_bytes
+  - Layout::from_size_align
+  - tmp[..20].copy_from_slice
+  - tmp_ptr.is_null
+  - dealloc
+  - tmp[4..4 + 16].copy_from_slice
+  - HmacMd5::new_from_slice
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_from_pk.rs:
+  - pk.can_do
+  - Pk::from_public_key_pem(b"-----BEGIN PUBLIC KEY-----\n...").unwrap
+  - Pk::from_public_key_pem
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_alpn_protocols.rs:
+  - (*p).is_null
+  - p.add
+  - CStr::from_ptr(*p).to_bytes().len
+  - CStr::from_ptr(*p).to_bytes
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_init.rs:
+  - mem::zeroed
+  - MbedtlsSslSession::new
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_point_formats_ext00.rs:
+  - buf.len
+  - buf.as_mut_ptr
+  - p.add
+  - p.is_null
+  - buf.as_ptr().add
+  - end.is_null
+  - buf.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_hello_done.rs:
+  - buf.len
+  - session.read
+  - Ok
+  - io::Error::new
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_truncated_hmac_ext.rs:
+  - p.offset
+  - buf.as_mut_ptr
+  - format.as_ptr
+  - file.as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_no_pfs.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/bsearch.rs:
+  - compar
+  - Some
+  - a.cmp
+  - base.len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_ret.rs:
+  - ret_str_c.as_ptr
+  - (*ssl).conf.is_null
+  - str.as_mut_ptr
+  - ptr::copy_nonoverlapping
+  - ssl.is_null
+  - (*(*ssl).conf).f_dbg.is_none
+  - std::ffi::CString::new
+  - ret_str_c.as_bytes_with_nul
+  - ret_str_c.as_bytes_with_nul().len
+  - str.as_ptr
+  - std::ffi::CString::new(ret_str).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_dh_public.rs:
+  - Ok
+  - mbedtls::dhm_read_public
+  - p.len
+  - mbedtls::debug_print_ret
+  - mbedtls::debug_print_msg
+  - mbedtls::debug_print_mpi
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_authmode.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_generate_random.rs:
+  - Err
+  - Ok
+  - rng_result.is_err
+  - rand::thread_rng
+  - rng.fill
+  - since_the_epoch.as_secs
+  - start.duration_since
+  - SystemTime::now
+  - start.duration_since(UNIX_EPOCH).expect
+  - ssl.handshake.verify_cookie.is_some
+  - (ssl.conf.f_rng)
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_free.rs:
+  - ptr::null_mut
+  - mbedtls_ssl_session_free
+  - cur.is_null
+  - cache.mbedtls_ssl_cache_free
+  - Box::from_raw
+  - self.peer_cert.p.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_server_step.rs:
+  - "ssl_srv.c\0".as_ptr
+  - mbedtls_ssl_parse_finished
+  - mbedtls_ssl_parse_certificate
+  - mbedtls_ssl_handshake_wrapup
+  - mbedtls_ssl_write_change_cipher_spec
+  - "handshake: done\0".as_ptr
+  - mbedtls_ssl_write_certificate
+  - "server state: %d\0".as_ptr
+  - mbedtls_ssl_flush_output
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_write_finished
+  - mbedtls_ssl_parse_change_cipher_spec
+  - mbedtls_ssl_flight_transmit
+  - (*ssl).handshake.is_null
+  - "invalid state %d\0".as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_read_record.rs:
+  - CString::new("<= read record").unwrap
+  - ssl_next_record_is_in_datagram
+  - CString::new("=> read record").unwrap
+  - file.as_ptr
+  - CString::new
+  - ssl_load_buffered_message
+  - mbedtls_debug_print_msg
+  - ssl_buffer_message
+  - ssl_get_next_record
+  - CString::new("mbedtls_ssl_handle_message_type").unwrap
+  - mbedtls_ssl_handle_message_type
+  - ssl_consume_current_message
+  - CString::new("ssl_get_next_record").unwrap
+  - mbedtls_debug_print_ret
+  - msg.as_ptr
+  - ssl_record_is_in_progress
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new("reuse previously read message").unwrap
+  - mbedtls_ssl_update_handshake_status
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_client_step.rs:
+  - ssl.write_finished
+  - ssl.write_certificate_verify
+  - ssl.write_change_cipher_spec
+  - Ok
+  - ssl.write_client_hello
+  - ssl.handshake.is_none
+  - ssl.flight_transmit
+  - ssl.parse_certificate_request
+  - ssl.write_certificate
+  - Err
+  - ssl.parse_server_hello_done
+  - ssl.flush_output
+  - ssl.parse_server_hello
+  - ssl.parse_server_key_exchange
+  - ssl.write_client_key_exchange
+  - ssl.handshake.as_ref().unwrap
+  - ssl.parse_finished
+  - mbedtls::error::Error::from_code
+  - ssl.handshake_wrapup
+  - ssl.parse_new_session_ticket
+  - ssl.parse_certificate
+  - ssl.parse_change_cipher_spec
+  - print_msg
+  - ssl.handshake.as_ref
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_hash_from_md_alg.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_session_pointer.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_next_record.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_msg.c\0").as_ptr
+  - ssl_prepare_record_content
+  - ssl_parse_record_header
+  - mbedtls_ssl_send_alert_message
+  - mbedtls_ssl_fetch_input
+  - CStr::from_bytes_with_nul_unchecked(b"too many records with bad MAC\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"more than one record within datagram\0").as_ptr
+  - ssl_buffer_future_record
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"discarding invalid record (mac)\0").as_ptr
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_fetch_input\0").as_ptr
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_update_in_pointers
+  - CStr::from_bytes_with_nul_unchecked(b"discarding unexpected record (header)\0").as_ptr
+  - ssl_check_client_reconnect
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_client_reconnect\0").as_ptr
+  - rec.buf.add
+  - ssl_load_buffered_record
+  - mbedtls_ssl_in_hdr_len
+  - CStr::from_bytes_with_nul_unchecked(b"discarding invalid record (header)\0").as_ptr
+  - (*ssl).in_len.add
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_client_hello.rs:
+  - ciphersuite_info.unwrap
+  - p.as_ptr
+  - duration.as_secs().to_le_bytes
+  - f_rng
+  - now.duration_since(SystemTime::UNIX_EPOCH).unwrap
+  - buf[..8].copy_from_slice
+  - ssl.handshake.randbytes[..8].copy_from_slice
+  - SystemTime::now
+  - ciphersuite_info.is_none
+  - duration.as_secs
+  - ssl.handshake.verify_cookie.is_none
+  - now.duration_since
+  - ssl.conf.f_rng.is_none
+  - buf.as_ptr
+  - Some
+  - p[..32].copy_from_slice
+  - ssl.handshake.verify_cookie.as_ref
+  - p[..n].copy_from_slice
+  - ssl.handshake.verify_cookie.as_ref().unwrap
+  - ticket.is_empty
+  - ptr::null_mut
+  - p[..ssl.handshake.verify_cookie_len].copy_from_slice
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/net_would_block.rs:
+  - Errno::last
+  - Errno::set
+  - fcntl
+  - OFlag::O_NONBLOCK.bits
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_key_exchange.rs:
+  - ssl.in_msg.as_ptr().wrapping_add
+  - ssl.session_negotiate.as_ref
+  - slice::from_raw_parts
+  - end.offset_from
+  - Ok
+  - ptr::null
+  - ssl.session_negotiate.is_none
+  - ssl.session_negotiate.as_ref().unwrap
+  - ssl.session_negotiate.as_ref().unwrap().peer_cert.as_ref().unwrap
+  - params.len
+  - peer_pk.verify_restartable
+  - ssl.session_negotiate.as_ref().unwrap().peer_cert.as_ref
+  - peer_pk.can_do
+  - Err
+  - ssl.in_msg.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_fetch_input.rs:
+  - f_recv
+  - ssl_double_retransmit_timeout
+  - Ok
+  - ssl.f_recv.is_none
+  - f_recv_timeout
+  - mbedtls_ssl_resend_hello_request
+  - ssl.f_recv_timeout.is_none
+  - mbedtls_ssl_check_timer
+  - ssl.f_get_timer.is_none
+  - Err
+  - mbedtls_ssl_set_timer
+  - ssl.in_hdr.add
+  - ssl.in_hdr.copy_within
+  - mbedtls_ssl_resend
+  - ssl.f_set_timer.is_none
+  - env_logger::init
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_server_dh_params.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_record.rs:
+  - mbedtls_ssl_update_out_pointers
+  - rec.ctr.as_mut_ptr
+  - mbedtls_ssl_out_hdr_len
+  - mbedtls_ssl_write_version
+  - (0..8).rev
+  - mbedtls_debug_print_msg
+  - ssl.cur_out_ctr.as_ptr
+  - mbedtls_debug_print_buf
+  - mbedtls_debug_print_ret
+  - ssl_get_remaining_payload_in_datagram
+  - ptr::copy_nonoverlapping
+  - ssl_get_remaining_space_in_datagram
+  - mbedtls_ssl_encrypt_buf
+  - ssl.out_ctr.as_ptr
+  - ssl.transform_out.is_null
+  - mbedtls_ssl_flush_output
+  - ssl.out_len.add
+  - ssl.out_ctr.as_mut_ptr
+  - ssl.out_hdr.add
+  - rec.ver.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_session.rs:
+  - unsafe { (*ssl).session_negotiate }.is_null
+  - ssl.is_null
+  - mbedtls_ssl_session_copy
+  - session.is_null
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ecdhe.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_append_key_cert.rs:
+  - Some
+  - ptr::null_mut
+  - Box::new
+  - head.is_none
+  - head.as_mut().unwrap
+  - head.as_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_handshake_timeout.rs:
+  - Pk::from_private_key(include_bytes!("server-key.pem"), None).unwrap
+  - OsEntropy::new
+  - Some
+  - config.set_handshake_timeout
+  - Config::new
+  - ssl.setup(true).unwrap
+  - Context::new
+  - Config::new().unwrap
+  - ssl.setup
+  - Pk::from_private_key
+  - Certificate::from_pem(include_bytes!("server-cert.pem")).unwrap
+  - CtrDrbg::new(&mut entropy, None).unwrap
+  - Certificate::from_pem
+  - Duration::from_secs
+  - CtrDrbg::new
+  - config.set_own_cert
+  - config.set_rng
+  - config.set_own_cert(server_cert, server_key).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_copy.rs:
+  - Layout::from_size_align((*src).ticket_len, 1).unwrap
+  - dst_session.as_mut_ptr
+  - (*dst).ticket.is_null
+  - mbedtls_x509_crt_init
+  - SystemTime::now
+  - (*src).peer_cert.is_null
+  - (*session).peer_cert.is_null
+  - alloc
+  - ptr::null_mut
+  - ptr::copy_nonoverlapping
+  - Layout::from_size_align((*session).ticket_len, 1).unwrap
+  - (*dst).peer_cert.is_null
+  - (*session).ticket.is_null
+  - Layout::new::<MbedtlsX509Crt>
+  - mbedtls_x509_crt_parse_der
+  - (*src).ticket.is_null
+  - Layout::from_size_align
+  - MaybeUninit::<MbedtlsSslSession>::uninit
+  - dealloc
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_record_type.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_endpoint.rs:
+  - std::ptr::null_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_handshake_wrapup_free_hs_transform.rs:
+  - b"ssl_tls.c\0".as_ptr
+  - ptr::null_mut
+  - (*ssl).transform.is_null
+  - b"=> handshake wrapup: final free\0".as_ptr
+  - b"<= handshake wrapup: final free\0".as_ptr
+  - mbedtls_ssl_handshake_free
+  - free
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_transform_free
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dbg.rs:
+  - null_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atol.rs:
+  - c_str.to_str
+  - std::ffi::CString::new
+  - c_string.as_ptr
+  - nptr.is_null
+  - CStr::from_ptr
+  - std::ffi::CString::new("12345").unwrap
+  - str_slice.parse::<i64>
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_psk_identity.rs:
+  - end.offset_from
+  - mbedtls_debug_print_buf
+  - p.add
+  - ssl_conf_has_psk_or_cb
+  - mbedtls_ssl_send_alert_message
+  - f_psk
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_safer_memcmp
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_bitmask_check.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_max_fragment_length_ext.rs:
+  - buf.len
+  - Ok
+  - mbedtls_ssl_send_alert_message
+  - CStr::from_ptr(format).to_str
+  - b"bad client hello message\0".as_ptr
+  - CStr::from_ptr(file).to_str
+  - b"ssl_srv.c\0".as_ptr
+  - CStr::from_ptr(format).to_str().unwrap_or
+  - CStr::from_ptr(file).to_str().unwrap_or
+  - format.is_null
+  - CStr::from_ptr
+  - Err
+  - file.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_cert_usage.rs:
+  - cert.check_key_usage
+  - Ok
+  - cert.check_key_usage(usage).is_err
+  - cert.check_extended_key_usage(&ext_oid[..ext_len]).is_err
+  - cert.check_extended_key_usage
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_sig_hash.rs:
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_input_max_frag_len.rs:
+  - Some
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_psk_cb.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_init.rs:
+  - MbedtlsSslTicketContext::new
+  - mem::zeroed
+  - mem::size_of::<MbedtlsSslTicketContext>
+  - ptr::write_bytes
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_ticket_update_keys.rs:
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs
+  - SystemTime::now
+  - SystemTime::now().duration_since
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_md_alg_from_hash.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_flight_free.rs:
+  - ptr::drop_in_place
+  - cur.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_client_reconnect.rs:
+  - b"ssl_msg.c\0".as_ptr
+  - ssl.in_buf.add
+  - b"possible client reconnect from the same port\0".as_ptr
+  - ssl_handle_possible_reconnect
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_export_keys_ext_cb.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cache_init.rs:
+  - ptr::write_bytes
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_free.rs:
+  - std::mem::size_of::<MbedtlsSslContext>
+  - libc::strlen
+  - (*ssl).out_buf.is_null
+  - (*ssl).transform.is_null
+  - CString::new("ssl_tls.c").unwrap().as_ptr
+  - (*ssl).hostname.is_null
+  - CString::new
+  - (*ssl).session.is_null
+  - mbedtls_ssl_handshake_free
+  - CString::new("=> free").unwrap
+  - libc::free
+  - mbedtls_debug_print_msg
+  - (*ssl).handshake.is_null
+  - CString::new("ssl_tls.c").unwrap
+  - CString::new("<= free").unwrap().as_ptr
+  - ptr::null_mut
+  - mbedtls_ssl_session_free
+  - ssl.is_null
+  - (*ssl).in_buf.is_null
+  - CString::new("<= free").unwrap
+  - CString::new("=> free").unwrap().as_ptr
+  - mbedtls_ssl_transform_free
+  - mbedtls_platform_zeroize
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_check_pending.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_msg.c\0").as_ptr
+  - ptr::null
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_pending: more records within current datagram\0").as_ptr
+  - ssl.in_offt.is_null
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_pending: application data record is being processed\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_pending: more handshake messages within current record\0").as_ptr
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_pending: record held back for processing\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_check_pending: nothing pending\0").as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_hs_hdr_len.rs:
+  - code itself. This error typically occurs when there is an unmatched backquote
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_cookie_check.rs:
+  - cli_id.is_empty
+  - SystemTime::now().duration_since
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap
+  - SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs
+  - ctx.is_null
+  - SystemTime::now
+  - cookie.len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_handle_possible_reconnect.rs:
+  - OsEntropy::new
+  - conf.cookie_check
+  - Ok
+  - ssl.send
+  - conf.cookie_check().is_none
+  - Config::new
+  - Context::new(&mut conf).unwrap
+  - Context::new
+  - ssl.client_id_len
+  - ssl.reset_session
+  - ssl.in_buf
+  - Config::new().unwrap
+  - CtrDrbg::new(&mut entropy, None).unwrap
+  - ssl.client_id
+  - ssl.in_left
+  - conf.cookie_write
+  - conf.cookie_check().unwrap
+  - CtrDrbg::new
+  - conf.cookie_write().unwrap
+  - ssl.out_buf
+  - conf.cookie_context
+  - conf.cookie_write().is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_swap_epochs.rs:
+  - tmp_out_ctr.as_mut_ptr
+  - alt_transform_out.cur_out_ctr.as_ptr
+  - copy_nonoverlapping
+  - Some
+  - std::mem::swap
+  - Box::new
+  - alt_transform_out.cur_out_ctr.as_mut_ptr
+  - ssl.transform_out.is_some
+  - tmp_out_ctr.as_ptr
+  - ssl.cur_out_ctr.as_ptr
+  - ssl.cur_out_ctr.as_mut_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_remove_psk.rs:
+  - ssl.handshake.is_null
+  - Layout::from_size_align(32, 1).unwrap
+  - std::alloc::alloc
+  - ptr::null_mut
+  - handshake.psk.is_null
+  - slice::from_raw_parts_mut
+  - buf.iter_mut
+  - Layout::from_size_align
+  - Layout::from_size_align(handshake.psk_len, 1).unwrap
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_mfl_code_to_length.rs:
+  - std::cmp::min
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_message.rs:
+  - ptr::write_bytes
+  - hs_buf.data.is_null
+  - hs.is_null
+  - ptr::copy_nonoverlapping
+  - msg.add
+  - hs_buf.data.add
+  - slice::from_raw_parts_mut
+  - ptr::read
+  - ssl.in_msg.add
+  - libc::calloc
+  - ssl.in_msg.offset
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_hs_header.rs:
+  - ssl_get_hs_frag_len
+  - ssl_get_hs_total_len
+  - ssl_get_hs_frag_off
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_key_exchange_md_ssl_tls.rs:
+  - output[..16].copy_from_slice
+  - output[16..36].copy_from_slice
+  - Ok
+  - sha1_hasher.finalize
+  - Md5::new
+  - md5_hasher.update
+  - Sha1::new
+  - md5_hasher.finalize
+  - Err
+  - sha1_hasher.update
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_resend_hello_request.rs:
+  - format.as_ptr
+  - file.as_ptr
+  - ssl_write_hello_request
+  - CStr::from_bytes_with_nul(b"ssl_tls.c\0").unwrap
+  - CStr::from_bytes_with_nul(
+                    b"no longer retransmitting hello request\0",
+                )
+                .unwrap
+  - CStr::from_bytes_with_nul
+  - mbedtls_debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_session_ticket_ext00.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - buf.as_mut_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"client hello, adding session ticket extension\0").as_ptr
+  - p.add
+  - ptr::copy_nonoverlapping
+  - CStr::from_bytes_with_nul_unchecked(b"sending session ticket of length %d\0").as_ptr
+  - (*ssl.session_negotiate).ticket.is_null
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_debug_print_msg
+  - mbedtls_ssl_chk_buf_ptr
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_get_reassembly_buffer_size.rs.
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_psk.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_change_cipher_spec.rs:
+  - CString::new("<= write change cipher spec").unwrap
+  - msg2.as_ptr
+  - msg3.as_ptr
+  - CString::new("mbedtls_ssl_write_handshake_msg").unwrap
+  - msg1.as_ptr
+  - mbedtls_debug_print_ret
+  - file.as_ptr
+  - mbedtls_ssl_write_handshake_msg
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new
+  - CString::new("=> write change cipher spec").unwrap
+  - mbedtls_debug_print_msg
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_init.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_send_alert_message.rs:
+  - ssl.conf.is_none
+  - env_logger::init
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/feof_unlocked.rs:
+  - file.read
+  - File::open
+  - Err
+  - Ok
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_replay_check.rs:
+  - bytes.iter().take
+  - u64::from
+  - bytes.iter
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_set_threshold.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffer_make_space.rs:
+  - CString::new("Attempt to free buffered messages to have {} bytes available").unwrap
+  - ssl_free_buffered_record
+  - (0..4).rev
+  - format.as_ptr
+  - file.as_ptr
+  - CString::new("Enough space available after freeing future epoch record").unwrap
+  - CString::new("ssl_msg.c").unwrap
+  - CString::new
+  - CString::new("Free buffering slot {} to make space for reassembly of next handshake message").unwrap
+  - CString::new("Enough space available after freeing buffered HS messages").unwrap
+  - mbedtls_debug_print_msg
+  - ssl_buffering_free_slot
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_servername_ext.rs:
+  - buf.len
+  - p.as_ptr
+  - CString::new("bad client hello message").unwrap
+  - mbedtls_ssl_send_alert_message
+  - msg.as_ptr
+  - CString::new("ssl_sni_wrapper").unwrap
+  - CString::new("ssl_srv.c").unwrap
+  - file.as_ptr
+  - CString::new
+  - mbedtls_debug_print_msg
+  - f_sni
+  - p.as_ptr().add
+  - CString::new("parse ServerName extension").unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_encrypted_pms.rs:
+  - Err
+  - Ok
+  - std::mem::size_of::<u32>
+  - ssl.handshake.premaster.len
+  - (ssl.conf.f_rng)
+  - peer_pms.len
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_dtls_cookies.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_record_header.rs:
+  - b"Datagram of length %u too small to contain record of advertised length %u.\0".as_ptr
+  - b"input record: msgtype = %d, version = [%d:%d], msglen = %d\0".as_ptr
+  - b"ssl_msg.c\0".as_ptr
+  - b"replayed record\0".as_ptr
+  - (*rec).ctr.as_mut_ptr
+  - b"minor version mismatch\0".as_ptr
+  - mbedtls_debug_print_msg
+  - ssl_check_record_type
+  - mbedtls_ssl_dtls_record_replay_check
+  - (*ssl).in_ctr.as_ptr
+  - b"record from another epoch: expected %d, received %d\0".as_ptr
+  - mbedtls_debug_print_buf
+  - b"datagram of length %u too small to hold DTLS record header of length %u\0".as_ptr
+  - ptr::copy_nonoverlapping
+  - b"Consider record for buffering\0".as_ptr
+  - b"unknown record type %u\0".as_ptr
+  - b"input record header\0".as_ptr
+  - mbedtls_ssl_read_version
+  - b"major version mismatch\0".as_ptr
+  - buf.add
+  - (*rec).ver.as_ptr
+  - (*rec).ctr.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_update_in_pointers.rs:
+  - ssl.in_hdr.offset
+  - ssl.in_hdr.add
+  - ssl.in_ctr.add
+  - ssl.in_len.add
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_own_cert.rs:
+  - Some
+  - kc.cert.as_ref
+  - Box::new
+  - kc.cert.as_ref().map
+  - cert.as_ref
+  - key_cert.and_then
+  - ssl.conf.key_cert.as_ref
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_out_hdr_len.rs:
+  - code itself. This error typically occurs when there is an unmatched backquote
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_close_notify.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_msg.c\0").as_ptr
+  - unsafe { (*ssl).conf }.is_null
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_send_alert_message
+  - CStr::from_bytes_with_nul_unchecked(b"=> write close notify\0").as_ptr
+  - ssl.is_null
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"<= write close notify\0").as_ptr
+  - mbedtls_ssl_flush_output
+  - mbedtls_debug_print_msg
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_send_alert_message\0").as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_request.rs:
+  - "Bad certificate request message".to_string
+  - ssl.get_negotiated_ciphersuite().ok_or
+  - Ok
+  - ssl.send_alert
+  - ssl.get_negotiated_ciphersuite
+  - "No ciphersuite negotiated".to_string
+  - ciphersuite_info.ciphersuite.supports_client_auth
+  - ssl.set_keep_current_message
+  - ssl.get_client_auth
+  - Err
+  - cert_req.certificates.is_some
+  - ssl.set_state
+  - ssl.set_client_auth
+  - ssl.get_state
+  - ssl.read_tls_message
+  - rustls::TLSError::General
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_hmac.rs:
+  - copy_nonoverlapping
+  - hmac_ctx.finalize_reset().into_bytes().copy_to_slice
+  - p.len
+  - hmac_ctx.finalize_reset
+  - Ok
+  - hmac_ctx.update
+  - hmac_ctx.reset
+  - buffer.len
+  - Err
+  - p.as_mut_ptr
+  - min
+  - HmacSha256::new_from_slice
+  - hmac_out.as_ptr
+  - HmacSha256::new_from_slice(b"my secret and secure key").expect
+  - hmac_ctx.finalize_reset().into_bytes
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_derive_keys.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_reset_int.rs:
+  - self.mbedtls_ssl_session_free
+  - self.cur_out_ctr.fill
+  - self.own_verify_data.fill
+  - self.mbedtls_ssl_transform_free
+  - self.ssl_handshake_init
+  - self.in_buf.fill
+  - self.out_buf.fill
+  - self.transform.take
+  - Duration::from_millis
+  - self.mbedtls_ssl_reset_in_out_pointers
+  - ssl_context.mbedtls_ssl_session_reset_int
+  - self.mbedtls_ssl_set_timer
+  - self.mbedtls_ssl_dtls_replay_reset
+  - self.peer_verify_data.fill
+  - self.session.take
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_parse_change_cipher_spec.rs:
+  - CString::new("mbedtls_ssl_read_record").unwrap
+  - msg2.as_ptr
+  - msg4.as_ptr
+  - CString::new("bad change cipher spec message").unwrap
+  - msg1.as_ptr
+  - mbedtls_ssl_send_alert_message
+  - (*ssl).in_ctr.as_mut_ptr
+  - CString::new("DTLS epoch would wrap").unwrap
+  - file.as_ptr
+  - CString::new
+  - CString::new("<= parse change cipher spec").unwrap
+  - mbedtls_ssl_dtls_replay_reset
+  - msg5.as_ptr
+  - mbedtls_debug_print_msg
+  - ptr::write_bytes
+  - msg3.as_ptr
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_update_in_pointers
+  - CString::new("=> parse change cipher spec").unwrap
+  - msg6.as_ptr
+  - CString::new("ssl_msg.c").unwrap
+  - mbedtls_ssl_read_record
+  - CString::new("switching to new transform spec for inbound data").unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_client_key_exchange.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_srv.c\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"=> parse client key exchange\0").as_ptr
+  - Ok
+  - MbedtlsError::ReadRecordError
+  - mbedtls_debug_printf_ecdh
+  - mbedtls_ecdh_calc_secret
+  - CStr::from_bytes_with_nul_unchecked
+  - mbedtls_ssl_derive_keys
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_read_record\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"should never happen\0").as_ptr
+  - mbedtls_debug_print_msg
+  - (*ssl.handshake).premaster.as_mut_ptr
+  - Err
+  - mbedtls_ecdh_read_public
+  - MbedtlsError::EcdhReadPublicError
+  - end.offset_from
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ecdh_read_public\0").as_ptr
+  - mbedtls_debug_print_ret
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ssl_derive_keys\0").as_ptr
+  - MbedtlsError::EcdhCalcSecretError
+  - mbedtls_ssl_read_record
+  - CStr::from_bytes_with_nul_unchecked(b"mbedtls_ecdh_calc_secret\0").as_ptr
+  - ssl.in_msg.add
+  - CStr::from_bytes_with_nul_unchecked(b"bad client key exchange message\0").as_ptr
+  - CStr::from_bytes_with_nul_unchecked(b"<= parse client key exchange\0").as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_prepare_record_content.rs:
+  - slice::from_raw_parts
+  - rec.buf.add
+  - ssl.transform_in.is_some
+  - ssl.transform_in.as_ref().unwrap
+  - ssl.transform_in.as_ref
+  - (8..mbedtls_ssl_ep_len(ssl)).rev
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/atoi.rs:
+  - nptr.parse::<i32>
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_hs_psk.rs:
+  - psk.as_ptr
+  - Some
+  - new_psk.set_len
+  - ptr::copy_nonoverlapping
+  - psk.len
+  - Vec::with_capacity
+  - ssl.handshake.is_none
+  - psk.unwrap
+  - new_psk.as_mut_ptr
+  - new_psk.is_empty
+  - MbedtlsSslHandshakeParams::default
+  - psk.is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_sig_hash_set_init.rs:
+  - std::ptr::null_mut
+  - Self::default
+  - std::ptr::null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_init.rs:
+  - ptr::write_bytes
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_cookie_check_dummy.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_free.rs:
+  - key_cert.free
+  - ptr::write_bytes
+  - self.psk.take
+  - self.key_cert.take
+  - psk.as_mut_ptr
+  - self.dhm_P.free
+  - psk_identity.as_mut_ptr
+  - std::mem::size_of::<MbedtlsSslConfig>
+  - self.dhm_G.free
+  - config.free
+  - self.psk_identity.take
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_set_handshake_prfs.rs:
+  - Some
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_recv_timeout.rs:
+  - timeout.is_zero
+  - Ok
+  - MbedtlsNetContext::new
+  - timeout.subsec_micros
+  - Duration::from_millis
+  - select
+  - FD_ZERO
+  - FD_ISSET
+  - io::Error::last_os_error
+  - Err
+  - buf.len
+  - mem::zeroed
+  - io::Error::new
+  - ptr::null_mut
+  - FD_SET
+  - timeout.as_secs
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_send.rs:
+  - e.kind
+  - e.raw_os_error
+  - ctx.fd.as_raw_fd
+  - ctx.fd.write
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_reset_in_out_pointers.rs:
+  - mbedtls_ssl_update_out_pointers
+  - mbedtls_ssl_update_in_pointers
+  - ptr::null_mut
+  - (*ssl).out_buf.add
+  - (*ssl).in_buf.add
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_renegotiation_enforced.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getchar_unlocked.rs:
+  - io::stdin().read
+  - io::stdin
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ciphersuite_uses_ec.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_mpi.rs:
+  - ssl.conf.unwrap
+  - Some
+  - std::mem::size_of::<u64>
+  - ssl.conf.unwrap().f_dbg.is_none
+  - (0..std::mem::size_of::<u64>()).rev
+  - f_dbg
+  - write!(str_buf, " 00").unwrap
+  - (0..=n).rev
+  - write!(str_buf, "value of '{}' ({} bits) is:\n", text, (n * (std::mem::size_of::<u64>() * 8) + j as usize + 1)).unwrap
+  - write!(str_buf, "\n").unwrap
+  - String::with_capacity
+  - str_buf.clear
+  - write!(str_buf, " {:02x}", (x.p[i] >> (k * 8)) & 0xFF).unwrap
+  - ssl.conf.is_none
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_verify00.rs:
+  - calc_verify
+  - (*(*ssl).session_negotiate).peer_cert.is_null
+  - mbedtls_ssl_pk_alg_from_sig
+  - mbedtls_pk_can_do
+  - mbedtls_debug_print_msg
+  - mbedtls_pk_verify
+  - mbedtls_ssl_set_calc_verify_md
+  - hash_start.add
+  - hash.as_mut_ptr
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_md_alg_from_hash
+  - mbedtls_ssl_read_record
+  - mbedtls_ssl_update_handshake_status
+  - (*ssl).in_msg.add
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_compute_master.rs:
+  - handshake.premaster.as_ptr
+  - calc_verify
+  - CStr::from_bytes_with_nul(b"session hash for extended master secret\0").unwrap().as_ptr
+  - CStr::from_bytes_with_nul(b"session hash for extended master secret\0").unwrap
+  - session_hash.as_ptr
+  - CStr::from_bytes_with_nul(b"ssl_tls.c\0").unwrap
+  - CStr::from_bytes_with_nul(b"no premaster (session resumed)\0").unwrap
+  - CStr::from_bytes_with_nul(b"prf\0").unwrap
+  - CStr::from_bytes_with_nul(b"extended master secret\0").unwrap
+  - CStr::from_bytes_with_nul
+  - mbedtls_debug_print_msg
+  - lbl.as_ptr
+  - session_hash.as_mut_ptr
+  - CStr::from_bytes_with_nul(b"premaster secret\0").unwrap
+  - mbedtls_debug_print_buf
+  - tls_prf
+  - CStr::from_bytes_with_nul(b"prf\0").unwrap().as_ptr
+  - handshake.premaster.as_mut_ptr
+  - master.as_mut_ptr
+  - handshake.randbytes.as_ptr
+  - CStr::from_bytes_with_nul(b"ssl_tls.c\0").unwrap().as_ptr
+  - CStr::from_bytes_with_nul(b"no premaster (session resumed)\0").unwrap().as_ptr
+  - mbedtls_platform_zeroize
+  - CStr::from_bytes_with_nul(b"premaster secret\0").unwrap().as_ptr
+  - CStr::from_bytes_with_nul(b"master secret\0").unwrap
+  - handshake.premaster.len
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_debug_print_ecp.rs:
+  - CString::new(format!("{}(X)", CStr::from_ptr(text).to_str().unwrap())).unwrap
+  - mbedtls_debug_print_mpi
+  - (*ssl).conf.is_null
+  - text_x.as_ptr
+  - text_y.as_ptr
+  - ssl.is_null
+  - (*(*ssl).conf).f_dbg.is_none
+  - CString::new
+  - CString::new(format!("{}(Y)", CStr::from_ptr(text).to_str().unwrap())).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_recv_flight_completed.rs:
+  - Some
+  - ssl.in_msg.get
+  - handshake.flight.take
+  - ssl.handshake.as_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_start_renegotiation.rs:
+  - ssl.set_state
+  - ssl.handshake_mut
+  - ssl.set_renego_status
+  - Ok
+  - ssl.conf
+  - ssl.handshake
+  - debug_print_ret
+  - ssl.handshake_init
+  - Err
+  - debug_print_msg
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_free.rs:
+  - unsafe { TcpStream::from_raw_fd(self.fd) }.shutdown
+  - TcpStream::from_raw_fd
+  - File::from_raw_fd
+  - ctx.free
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_ticket_write.rs:
+  - ctx.f_rng
+  - Ok
+  - ctx.is_none
+  - Cipher::new
+  - end.len
+  - cipher.set_iv
+  - start.len
+  - session.save
+  - Err
+  - rand::thread_rng
+  - rng.fill
+  - ctx.f_rng.is_none
+  - key_name.copy_from_slice
+  - cipher.auth_encrypt
+  - cipher.set_key
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_conf_session_tickets.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_encrypt_buf.rs:
+  - Ok
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_conf_set_psk_identity.rs:
+  - alloc_zeroed
+  - ptr::copy_nonoverlapping
+  - psk_identity.is_null
+  - conf.psk_identity.is_null
+  - Layout::array::<u8>
+  - Layout::array::<u8>(psk_identity_len).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_buffering_free_slot.rs:
+  - ptr::write_bytes
+  - Layout::from_size_align(hs_buf.data_len, 1).unwrap
+  - Layout::from_size_align
+  - mbedtls_platform_zeroize
+  - dealloc
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_timer.rs:
+  - std::ptr::null_mut
+  - Some
+  - millisecs.to_string
+  - f_set_timer
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_set_nonblock.rs:
+  - Ok
+  - File::open("/dev/null").unwrap
+  - fcntl
+  - File::open
+  - self.fd.as_raw_fd
+  - std::io::Error::last_os_error
+  - Err
+  - ctx.set_nonblock
+  - ctx.set_nonblock().unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_transform_free.rs:
+  - self.md_ctx_enc.free
+  - self.cipher_ctx_enc.free
+  - self.md_ctx_dec.free
+  - self.zeroize
+  - self.cipher_ctx_dec.zeroize
+  - self.cipher_ctx_dec.free
+  - self.cipher_ctx_enc.zeroize
+  - self.md_ctx_enc.zeroize
+  - transform.free
+  - self.md_ctx_dec.zeroize
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getc_unlocked.rs:
+  - Ok
+  - io::Error::new
+  - BufReader::new
+  - File::open
+  - fp.read
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_client_transport_id.rs:
+  - ssl.cli_id.is_null
+  - alloc_zeroed
+  - info.as_ptr
+  - ptr::copy_nonoverlapping
+  - info.len
+  - Layout::array::<u8>(info.len()).unwrap
+  - Layout::array::<u8>
+  - dealloc
+  - Layout::array::<u8>(ssl.cli_id_len).unwrap
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_supported_elliptic_curves_ext.rs:
+  - buf.len
+  - buf.as_mut_ptr
+  - p.add
+  - (*(*ssl.conf).curve_list).clone
+  - elliptic_curve_list.add
+  - mbedtls_ecp_curve_info_from_grp_id
+  - info.is_null
+  - grp_id.add
+  - unsafe { (*ssl.conf).curve_list }.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/fgetc_unlocked.rs:
+  - self.buffer.clear
+  - self.file.borrow_mut
+  - Ok
+  - my_file.fgetc_unlocked
+  - Some
+  - self.buffer.push
+  - self.__uflow
+  - RefCell::new
+  - file.read
+  - Vec::new
+  - File::open
+  - Rc::new
+  - Err
+  - MyFile::new
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_dtls_record_replay_check.rs:
+  - ssl.get_in_ctr().to_vec
+  - ssl.dtls_replay_check
+  - ssl.get_in_ctr
+  - ssl.set_in_ctr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_config_defaults.rs:
+  - mbedtls_ssl_list_ciphersuites
+  - Some
+  - mbedtls_ssl_conf_endpoint
+  - dhm_p.len
+  - mbedtls_ssl_conf_dh_param_bin
+  - SSL_PRESET_SUITEB_CIPHERSUITES.as_ptr
+  - SSL_PRESET_SUITEB_CURVES.as_ptr
+  - dhm_p.as_ptr
+  - SSL_PRESET_DEFAULT_HASHES.as_ptr
+  - dhm_g.len
+  - mbedtls_ecp_grp_id_list
+  - mbedtls_ssl_conf_transport
+  - SSL_PRESET_SUITEB_HASHES.as_ptr
+  - dhm_g.as_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_finished.rs:
+  - ssl.handshake.alt_out_ctr.copy_from_slice
+  - ssl.handshake.calc_finished
+  - ssl.cur_out_ctr.fill
+  - mbedtls_ssl_update_out_pointers
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_flight_transmit
+  - mbedtls_ssl_send_flight_completed
+  - mbedtls_ssl_write_handshake_msg
+  - ssl.own_verify_data[..hash_len as usize].copy_from_slice
+  - mbedtls_debug_print_msg
+  - (0..2).rev
+  - ssl.cur_out_ctr[2..].fill
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_certificate_verify.rs:
+  - ca_chain.is_null
+  - mbedtls_ssl_send_alert_message
+  - (*ssl).f_vrfy.is_some
+  - mbedtls_ssl_check_curve
+  - mbedtls_pk_can_do
+  - mbedtls_x509_crt_verify_restartable
+  - mbedtls_ssl_check_cert_usage
+  - (*(*ssl).handshake).sni_ca_chain.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_bytes_avail.rs:
+  - ssl.in_offt.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_pk_get_len.rs:
+  - mbedtls_pk_get_bitlen
+  - std::ptr::null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_parse_alpn_ext.rs:
+  - buf.len
+  - CStr::from_ptr(*ours).to_bytes
+  - (*ours).is_null
+  - mbedtls_ssl_send_alert_message
+  - CStr::from_ptr(*ours).to_bytes().len
+  - ours.add
+  - conf.alpn_list.is_null
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_session_load.rs:
+  - ClientSession::new
+  - Arc::new
+  - Ok
+  - io::Error::new
+  - session.process_new_packets().is_ok
+  - io::Cursor::new
+  - session.read_tls
+  - ClientConfig::new
+  - session.process_new_packets
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_verify_result.rs:
+  - (*ssl).session.is_null
+  - (*ssl).session_negotiate.is_null
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_alpn_ext00.rs:
+  - CStr::from_bytes_with_nul_unchecked(b"ssl_cli.c\0").as_ptr
+  - buf.as_mut_ptr
+  - p.add
+  - ptr::copy_nonoverlapping
+  - cur.is_null
+  - mbedtls_ssl_chk_buf_ptr
+  - CStr::from_bytes_with_nul_unchecked
+  - CStr::from_bytes_with_nul_unchecked(b"client hello, adding alpn extension\0").as_ptr
+  - CStr::from_ptr(*cur).to_bytes
+  - mbedtls_debug_print_msg
+  - CStr::from_ptr(*cur).to_bytes().len
+  - (*cur).is_null
+  - p.offset_from
+  - cur.add
+  - CStr::from_ptr
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/getchar.rs:
+  - io::stdin().read
+  - io::stdin
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_hello_request.rs:
+  - Once::new
+  - env_logger::builder
+  - Ok
+  - INIT.call_once
+  - env_logger::builder().filter_level
+  - env_logger::builder().filter_level(LevelFilter::Debug).init
+  - Err
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_write_handshake_msg.rs:
+  - ssl.out_msg.as_ptr().add
+  - Ok
+  - Some
+  - f.debug_struct("MbedtlsSslContext")
+            .field
+  - ssl.handshake.is_none
+  - ssl.handshake.as_mut
+  - ssl.out_msg.as_mut_ptr
+  - ssl.handshake.as_mut().unwrap
+  - f.debug_struct("MbedtlsSslContext")
+            .field("out_msglen", &self.out_msglen)
+            .field("out_msg", &self.out_msg)
+            .field("out_msgtype", &self.out_msgtype)
+            .field("conf", &self.conf)
+            .field
+  - f.debug_struct("MbedtlsSslContext")
+            .field("out_msglen", &self.out_msglen)
+            .field
+  - f.debug_struct("MbedtlsSslContext")
+            .field("out_msglen", &self.out_msglen)
+            .field("out_msg", &self.out_msg)
+            .field
+  - f.debug_struct
+  - ssl.out_msg.as_ptr
+  - f.debug_struct("MbedtlsSslContext")
+            .field("out_msglen", &self.out_msglen)
+            .field("out_msg", &self.out_msg)
+            .field("out_msgtype", &self.out_msgtype)
+            .field
+  - ptr::copy
+  - ssl.out_msg.as_mut_ptr().add
+  - ssl.handshake.as_ref().unwrap
+  - ssl.out_msg[9..12].copy_from_slice
+  - ssl.handshake.is_some
+  - f.debug_struct("MbedtlsSslContext")
+            .field("out_msglen", &self.out_msglen)
+            .field("out_msg", &self.out_msg)
+            .field("out_msgtype", &self.out_msgtype)
+            .field("conf", &self.conf)
+            .field("handshake", &self.handshake)
+            .finish
+  - ssl.handshake.as_ref
+  - (handshake.update_checksum)
+  - ssl.out_msg[6..9].fill
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/putc_unlocked.rs:
+  - file.write_all
+  - Ok
+  - File::create
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_set_block.rs:
+  - ctx.set_block
+  - Ok
+  - File::open("/dev/null").unwrap
+  - MbedtlsNetContext::new
+  - fcntl
+  - File::open
+  - io::Error::last_os_error
+  - Err
+  - file.as_raw_fd
+
+All function calls have corresponding definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_get_ciphersuite_sig_pk_alg.rs.
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_net_bind.rs:
+  - (bind_ip.unwrap_or("0.0.0.0"), port).to_socket_addrs()?.next
+  - Ok
+  - (bind_ip.unwrap_or("0.0.0.0"), port).to_socket_addrs()?.next().ok_or
+  - Some
+  - io::Error::new
+  - MbedtlsNetContext::new
+  - bind_ip.unwrap_or
+  - (bind_ip.unwrap_or("0.0.0.0"), port).to_socket_addrs
+  - ctx.bind
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_set_verify.rs:
+  - std::ptr::null_mut
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/mbedtls_ssl_buffering_free.rs:
+  - HandshakeBuffer::default
+  - handshake.buffering.hs.iter_mut
+  - MbedtlsSslContext::default
+  - handshake.buffering.hs.len
+  - ssl.handshake.is_none
+  - handshake.buffering.hs.iter_mut().for_each
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_write_server_hello_done.rs:
+  - b"mbedtls_ssl_flight_transmit\0".as_ptr
+  - mbedtls_debug_print_ret
+  - mbedtls_ssl_send_flight_completed
+  - b"mbedtls_ssl_write_handshake_msg\0".as_ptr
+  - mbedtls_ssl_write_handshake_msg
+  - b"ssl_srv.c\0".as_ptr
+  - b"=> write server hello done\0".as_ptr
+  - mbedtls_debug_print_msg
+  - b"<= write server hello done\0".as_ptr
+  - mbedtls_ssl_flight_transmit
+
+Missing function definitions in ../../src/python/inputs-complex/mbedtls/library/individual-funcs_gpt-4o_2024-09-25_11-18-42__complete/ssl_check_ctr_renegotiate.rs:
+  - ssl.in_ctr[ep_len..].cmp
+  - b"ssl_msg.c\0".as_ptr
+  - ssl.cur_out_ctr[ep_len..].cmp
+  - mbedtls_ssl_renegotiate
+  - mbedtls_ssl_ep_len
+  - mbedtls_debug_print_msg
+  - b"record counter limit reached: renegotiate\0".as_ptr
