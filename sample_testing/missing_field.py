@@ -60,13 +60,13 @@ def detect_struct_usages(tree, structs):
                 # print(f"Detected usage of struct: {struct_type}")
 
                 if struct_type not in structs:
-                    print(f"❌ Error: Struct '{struct_type}' is undefined.")
+                    print(f"Error: Struct '{struct_type}' is undefined.")
                 else:
                     defined_fields = structs[struct_type]
                     if not defined_fields:
                         # This handles structs with no fields defined at all
                         if field_list_node:
-                            print(f"❌ ERROR: Struct '{struct_type}' has no defined fields, but fields were accessed.")
+                            print(f"ERROR: Struct '{struct_type}' has no defined fields, but fields were accessed.")
                     else:
                         # Check for field accesses
                         accessed_fields = []
@@ -77,7 +77,7 @@ def detect_struct_usages(tree, structs):
                                     accessed_fields.append(field_name_node.text.decode('utf-8'))
                         missing_fields = [f for f in accessed_fields if f not in defined_fields]
                         if missing_fields:
-                            print(f"❌ Error: Struct '{struct_type}' does not have fields: {missing_fields}")
+                            print(f"Error: Struct '{struct_type}' does not have fields: {missing_fields}")
 
         for child in node.children:
             traverse(child)
