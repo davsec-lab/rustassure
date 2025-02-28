@@ -1,0 +1,73 @@
+; ModuleID = './inputs-complex/zlib-1.3.1//individual-funcs_gpt-3.5-turbo_2025-01-07_16-00-33/error.rs.bc'
+source_filename = "error.c25d8603-cgu.0"
+target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+@_ZN5error6STDERR17h26bf630a5031da2dE = internal global <{ [8 x i8] }> zeroinitializer, align 8
+@alloc13 = private unnamed_addr constant <{ [12 x i8] }> <{ [12 x i8] c"program_name" }>, align 1
+@alloc2 = private unnamed_addr constant <{ [8 x i8] }> <{ [8 x i8] c"%s: %s\0A\00" }>, align 1
+
+; Function Attrs: inlinehint nonlazybind uwtable
+define internal i8* @"_ZN4core3str21_$LT$impl$u20$str$GT$6as_ptr17h19434a8a31fb0235E"([0 x i8]* align 1 %self.0, i64 %self.1) unnamed_addr #0 {
+start:
+  %0 = bitcast [0 x i8]* %self.0 to i8*
+  ret i8* %0
+}
+
+; Function Attrs: inlinehint nonlazybind uwtable
+define i8* @"_ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$6as_ptr17h5c1374de01b4ebfbE"([0 x i8]* align 1 %self.0, i64 %self.1) unnamed_addr #0 {
+start:
+  %0 = bitcast [0 x i8]* %self.0 to i8*
+  ret i8* %0
+}
+
+; Function Attrs: nonlazybind uwtable
+define void @error([0 x i8]* align 1 %msg.0, i64 %msg.1) unnamed_addr #1 {
+start:
+  %_4 = call i8* @"_ZN4core3str21_$LT$impl$u20$str$GT$6as_ptr17h19434a8a31fb0235E"([0 x i8]* align 1 bitcast (<{ [12 x i8] }>* @alloc13 to [0 x i8]*), i64 12)
+  br label %bb1
+
+bb1:                                              ; preds = %start
+  %_7 = call i8* @"_ZN4core3str21_$LT$impl$u20$str$GT$6as_ptr17h19434a8a31fb0235E"([0 x i8]* align 1 %msg.0, i64 %msg.1)
+  br label %bb2
+
+bb2:                                              ; preds = %bb1
+  %_10 = load i8*, i8** bitcast (<{ [8 x i8] }>* @_ZN5error6STDERR17h26bf630a5031da2dE to i8**), align 8
+  %_13 = call i8* @"_ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$6as_ptr17h5c1374de01b4ebfbE"([0 x i8]* align 1 bitcast (<{ [8 x i8] }>* @alloc2 to [0 x i8]*), i64 8)
+  br label %bb3
+
+bb3:                                              ; preds = %bb2
+  %_9 = call i32 (i8*, i8*, ...) @fprintf(i8* %_10, i8* %_13, i8* %_4, i8* %_7)
+  br label %bb4
+
+bb4:                                              ; preds = %bb3
+  call void @exit(i32 1) #3
+  unreachable
+}
+
+; Function Attrs: nonlazybind uwtable
+declare i32 @fprintf(i8*, i8*, ...) unnamed_addr #1
+
+; Function Attrs: noreturn nonlazybind uwtable
+declare void @exit(i32) unnamed_addr #2
+
+attributes #0 = { inlinehint nonlazybind uwtable "probe-stack"="__rust_probestack" "target-cpu"="x86-64" }
+attributes #1 = { nonlazybind uwtable "probe-stack"="__rust_probestack" "target-cpu"="x86-64" }
+attributes #2 = { noreturn nonlazybind uwtable "probe-stack"="__rust_probestack" "target-cpu"="x86-64" }
+attributes #3 = { noreturn }
+
+!llvm.module.flags = !{!0, !1}
+
+!0 = !{i32 7, !"PIC Level", i32 2}
+!1 = !{i32 2, !"RtLibUseGOT", i32 1}
+
+^0 = module: (path: "./inputs-complex/zlib-1.3.1//individual-funcs_gpt-3.5-turbo_2025-01-07_16-00-33/error.rs.bc", hash: (1178820480, 1122331408, 1166734053, 3197770050, 3776082516))
+^1 = gv: (name: "alloc13", summaries: (variable: (module: ^0, flags: (linkage: private, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 1, canAutoHide: 0), varFlags: (readonly: 1, writeonly: 0, constant: 1)))) ; guid = 2137618548087372363
+^2 = gv: (name: "_ZN4core5slice29_$LT$impl$u20$$u5b$T$u5d$$GT$6as_ptr17h5c1374de01b4ebfbE", summaries: (function: (module: ^0, flags: (linkage: external, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 0, canAutoHide: 0), insts: 2))) ; guid = 4051151553490331736
+^3 = gv: (name: "alloc2", summaries: (variable: (module: ^0, flags: (linkage: private, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 1, canAutoHide: 0), varFlags: (readonly: 1, writeonly: 0, constant: 1)))) ; guid = 9127684582620857959
+^4 = gv: (name: "error", summaries: (function: (module: ^0, flags: (linkage: external, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 0, canAutoHide: 0), insts: 11, calls: ((callee: ^7), (callee: ^2), (callee: ^6), (callee: ^5)), refs: (^1, ^3, readonly ^8)))) ; guid = 9168935602946596555
+^5 = gv: (name: "exit") ; guid = 11176115373368037362
+^6 = gv: (name: "fprintf") ; guid = 13195267545312860168
+^7 = gv: (name: "_ZN4core3str21_$LT$impl$u20$str$GT$6as_ptr17h19434a8a31fb0235E", summaries: (function: (module: ^0, flags: (linkage: internal, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 1, canAutoHide: 0), insts: 2))) ; guid = 14308145276218077279
+^8 = gv: (name: "_ZN5error6STDERR17h26bf630a5031da2dE", summaries: (variable: (module: ^0, flags: (linkage: internal, visibility: default, notEligibleToImport: 0, live: 0, dsoLocal: 1, canAutoHide: 0), varFlags: (readonly: 1, writeonly: 1, constant: 0)))) ; guid = 14924201392452980251
+^9 = blockcount: 7

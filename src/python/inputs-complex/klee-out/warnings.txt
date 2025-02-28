@@ -1,0 +1,4 @@
+KLEE: WARNING: undefined reference to function: strcpy
+KLEE: WARNING: undefined reference to function: strlen
+KLEE: WARNING ONCE: calling external: strcpy(138891086618624, 138899676553216) at ay_test.c:102 19
+KLEE: WARNING ONCE: calling external: strlen(138891086618624) at ay_test.c:102 12

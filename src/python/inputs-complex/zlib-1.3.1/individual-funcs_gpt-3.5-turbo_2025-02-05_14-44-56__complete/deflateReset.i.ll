@@ -1,0 +1,46 @@
+; ModuleID = './inputs-complex/zlib-1.3.1//individual-funcs_gpt-3.5-turbo_2025-02-05_14-44-56/deflateReset.i.bc'
+source_filename = "./inputs-complex/zlib-1.3.1//individual-funcs_gpt-3.5-turbo_2025-02-05_14-44-56/deflateReset.i"
+target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+%struct.z_stream_s = type { i8*, i32, i64, i8*, i32, i64, i8*, %struct.internal_state*, i8* (i8*, i32, i32)*, void (i8*, i8*)*, i8*, i32, i64, i64 }
+%struct.internal_state = type opaque
+
+; Function Attrs: noinline nounwind optnone uwtable
+define dso_local i32 @deflateReset(%struct.z_stream_s* noundef %0) #0 {
+  %2 = alloca %struct.z_stream_s*, align 8
+  %3 = alloca i32, align 4
+  store %struct.z_stream_s* %0, %struct.z_stream_s** %2, align 8
+  %4 = load %struct.z_stream_s*, %struct.z_stream_s** %2, align 8
+  %5 = call i32 @deflateResetKeep(%struct.z_stream_s* noundef %4)
+  store i32 %5, i32* %3, align 4
+  %6 = load i32, i32* %3, align 4
+  %7 = icmp eq i32 %6, 0
+  br i1 %7, label %8, label %13
+
+8:                                                ; preds = %1
+  %9 = load %struct.z_stream_s*, %struct.z_stream_s** %2, align 8
+  %10 = getelementptr inbounds %struct.z_stream_s, %struct.z_stream_s* %9, i32 0, i32 7
+  %11 = load %struct.internal_state*, %struct.internal_state** %10, align 8
+  %12 = call i32 (%struct.internal_state*, ...) bitcast (i32 (...)* @lm_init to i32 (%struct.internal_state*, ...)*)(%struct.internal_state* noundef %11)
+  br label %13
+
+13:                                               ; preds = %8, %1
+  %14 = load i32, i32* %3, align 4
+  ret i32 %14
+}
+
+declare dso_local i32 @deflateResetKeep(%struct.z_stream_s* noundef) #1
+
+declare dso_local i32 @lm_init(...) #1
+
+attributes #0 = { noinline nounwind optnone uwtable "frame-pointer"="all" "min-legal-vector-width"="0" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "tune-cpu"="generic" }
+attributes #1 = { "frame-pointer"="all" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "tune-cpu"="generic" }
+
+!llvm.module.flags = !{!0, !1, !2}
+!llvm.ident = !{!3}
+
+!0 = !{i32 1, !"wchar_size", i32 4}
+!1 = !{i32 7, !"uwtable", i32 1}
+!2 = !{i32 7, !"frame-pointer", i32 2}
+!3 = !{!"clang version 14.0.0"}

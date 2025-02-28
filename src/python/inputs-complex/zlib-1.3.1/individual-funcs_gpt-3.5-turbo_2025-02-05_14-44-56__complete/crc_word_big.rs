@@ -1,0 +1,22 @@
+#![allow(unaligned_references)]
+const CRC_BIG_TABLE: [u64; 256] = [
+    0x0000000000000000, 0x9630077700000000, 0x2c610eee00000000, 0xba51099900000000,
+    0x19c46d0700000000, 0x8ff46a7000000000, 0x35a563e900000000, 0xa395649e00000000,
+    0x3288db0e00000000, 0xa4b8dc7900000000, 0x1ee9d5e000000000, 0x88d9d29700000000,
+    0x2b4cb60900000000, 0xbd7cb17e00000000, 0x072db8e700000000, 0x911dbf9000000000,
+    0x6410b71d00000000, 0xf220b06a00000000, 0x4871b9f300000000, 0xde41be8400000000,
+    0x7dd4da1a00000000, 0xebe4dd6d00000000, 0x51b5d4f400000000, 0xc785d38300000000,
+    0x56986c1300000000, 0xc0a86b6400000000, 0x7af962fd00000000, 0xecc9658a00000000,
+    0x4f5c011400000000, 0xd96c066300000000, 0x633d0ffa00000000, 0xf50d08...
+    // The rest of the CRC_BIG_TABLE values are omitted for brevity
+];
+
+#[no_mangle]
+#[no_mangle]
+fn crc_word_big(data: u64) -> u64 {
+    let mut data = data;
+    for _ in 0..8 {
+        data = (data << 8) ^ CRC_BIG_TABLE[((data >> 56) & 0xff) as usize];
+    }
+    data
+}

@@ -1,0 +1,9 @@
+Error: memory error: out of bound pointer
+Stack: 
+	#000000077 in main()
+Info: 
+	address: (ReadLSB w64 24 a)
+	example: 255
+	range: [1, 18446744073709551615]
+	next: object at 139299518943232 of size 32
+		MO38[32] allocated at main():  %b = alloca [1 x %zahl], align 8

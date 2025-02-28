@@ -1,0 +1,34 @@
+array a[32] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0
+                 N0:(ReadLSB w64 24 a)))
+         (Eq false
+             (Ult (Add w64 18446604774190608384 N0) 25))
+         (Eq false
+             (Ult (Add w64 18446604772043124736 N0) 25))
+         (Eq false
+             (Ult (Add w64 18446603568344985600 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568311431168 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568277876736 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568244322304 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568210767872 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568177213440 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568110104576 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603568042995712 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603567975886848 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603567908777984 N0) 33))
+         (Eq false
+             (Ult (Add w64 18446603567841669120 N0) 33))
+         (Ult (Add w64 18446603567774560256 N0) 33)
+         (Ult (Add w64 18446603567774560264 N0) 33)
+         (Ult (Add w64 18446603567774560272 N0) 33)]
+        false)

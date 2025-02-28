@@ -1,0 +1,9 @@
+array a[32] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0
+                 N0:(ReadLSB w64 24 a)))
+         (Ult (Add w64 18446604774190608384 N0) 25)
+         (Ult (Add w64 18446604774190608392 N0) 25)
+         (Eq false
+             (Ult (Add w64 18446604774190608400 N0) 25))]
+        false)

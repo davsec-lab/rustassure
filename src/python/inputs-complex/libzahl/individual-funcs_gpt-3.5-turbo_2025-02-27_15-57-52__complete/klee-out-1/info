@@ -1,0 +1,23 @@
+klee --libc=klee --use-query-log=all:smt2 --only-output-states-covering-new --debug-print-instructions=all:stderr --max-instructions=600 ./inputs-complex/libzahl/individual-funcs_gpt-3.5-turbo_2025-02-27_15-57-52__complete/zsub_positive_assign.rs.bc.ll
+PID: 641347
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-03-01 22:38:33
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2025-03-01 22:40:18
+Elapsed: 00:01:45
+KLEE: done: explored paths = 238
+KLEE: done: avg. constructs per query = 105
+KLEE: done: total queries = 8843
+KLEE: done: valid queries = 7933
+KLEE: done: invalid queries = 910
+KLEE: done: query cex = 8843
+
+KLEE: done: total instructions = 600
+KLEE: done: completed paths = 9
+KLEE: done: partially completed paths = 229
+KLEE: done: generated tests = 15
