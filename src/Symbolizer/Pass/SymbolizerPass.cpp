@@ -251,6 +251,7 @@ namespace {
 
 	struct Symbolizer : PassInfoMixin<Symbolizer> {
 
+		Function *malloc_function;
 		//TODO : Delete this logic
 		std::vector<StructType*> visited_struct_types;
 		json ParsedJson;
@@ -261,13 +262,15 @@ namespace {
 			"__strcpy_chk",
 			"malloc",
 			"strlen",
-			"memcmp"
+			"memcmp",
+			"__rust_dealloc",
+			"free",
 		};
 		std::list<std::string> removed_list = {
-			"core::ptr::drop_in_place<alloc::boxed::Box<r::UrlData>>",
-			"core::ptr::drop_in_place<alloc::boxed::Box<url_free::UrlData>>",
+			// "core::ptr::drop_in_place<alloc::boxed::Box<r::UrlData>>",
+			// "core::ptr::drop_in_place<alloc::boxed::Box<url_free::UrlData>>",
 			"core::ptr::read_unaligned",
-			"core::ptr::drop_in_place<r::UrlData>",
+			// "core::ptr::drop_in_place<r::UrlData>",
 			"core::ptr::drop_in_place<core::option::Option<alloc::string::String>>",
 			"core::str::<impl str>::find",
 			"core::result::Result<T,E>::expect",
@@ -378,6 +381,21 @@ namespace {
 		}
 
 		void mark_symbolic(Module& M, Value* value, IRBuilder<>& Builder) {
+			ConstantInt *const_int;
+			errs() << "marked_symbolic" << value << "\n";
+			if (isa<CastInst>(value)) {
+				errs() << "marked_symbolic2" << value << "\n";
+			}
+			if (isa<CallInst>(value)) {
+				CallInst *call = dyn_cast<CallInst>(value);
+				const_int = dyn_cast<ConstantInt>(call->getOperand(0));
+			} else if (isa<BitCastInst>(value)) {
+				CastInst* cast_inst = dyn_cast<CastInst>(value);
+				CallInst *call = dyn_cast<CallInst>(cast_inst->getOperand(0));
+				const_int = dyn_cast<ConstantInt>(call->getOperand(0));
+			} else {
+				assert(false && "Unhandled cast type");
+			}
 			LLVMContext& ctx = M.getContext();
 			const DataLayout& DL = M.getDataLayout();
 
@@ -395,7 +413,7 @@ namespace {
 			std::vector<Value*> klee_make_symbolic_args;
 			Type* void_ptr_type = PointerType::get(IntegerType::getInt8Ty(ctx), 0);
 			klee_make_symbolic_args.push_back(Builder.CreateBitCast(value, void_ptr_type));
-			klee_make_symbolic_args.push_back(ConstantInt::get(IntegerType::get(ctx, 64), DL.getTypeAllocSize(value->getType()->getPointerElementType())));
+			klee_make_symbolic_args.push_back(const_int);
 			Value* arg_name = Builder.CreateGlobalString(value->getName(), "klee_sym_arg_name", 0, &M);
 			// Set the global string as non-constant (writable)
 			GlobalVariable* global_arg_name = cast<GlobalVariable>(arg_name);
@@ -498,7 +516,7 @@ namespace {
 				// If it is a struct type but the definition isn't present, then we just give it some random fields
 				// create an integer and mark it symbolic
 				// This implementation is incomplete: many corner cases need to be handled
-				AllocaInst* stack_arg = nullptr;
+				Value* stack_arg = nullptr;
 				StructType* struct_symbol_type = dyn_cast<StructType>(type);
 				if (struct_symbol_type && struct_symbol_type->isOpaque()) {
 					// Create a dummy struct type of two ints
@@ -512,7 +530,17 @@ namespace {
 						needCast = true;
 					}
 				}
-				stack_arg = Builder.CreateAlloca(type, 0, name);
+				int size = M.getDataLayout().getTypeAllocSize(type);
+				Constant* constant = ConstantInt::get(Type::getInt64Ty(ctx), size);
+				stack_arg = Builder.CreateCall(malloc_function, constant);
+				Type* returnType = PointerType::get(originalType, 0);
+				stack_arg = Builder.CreateBitCast(stack_arg, returnType);
+				errs() <<"debug"<<  *stack_arg << "\n";
+				if (isa<CastInst>(stack_arg)) {
+					errs() << "is a bitcast " << "\n";
+					errs() << stack_arg << "\n";
+				}
+				// stack_arg = Builder.CreateAlloca(type, 0, name);
 				// Any inner objects, should also be initialized
 				initialize_inner_objects(M, Builder, stack_arg);
 				// Only mark the non-pointers symbolic
@@ -1089,8 +1117,8 @@ namespace {
 								}
 							}
 							Builder.CreateRetVoid();
-						} else if (filename_without_extension == "url_free" &&
-							function_name == "free") {
+						} else if (filename_without_extension == "url_free111" &&
+							function_name == "free111") {
 							findFreeFunction = true;
 							dummy_func = Function::Create(func_type, Function::ExternalLinkage,"function_free" + std::to_string(count++), M);
 							BasicBlock *basic_block = BasicBlock::Create(ctx, "entry", dummy_func);
@@ -1189,6 +1217,9 @@ namespace {
 		}
 
 		PreservedAnalyses run(Module &M, ModuleAnalysisManager &) {
+			FunctionType *func_type = FunctionType::get(PointerType::get(Type::getInt8Ty(M.getContext()), 0), IntegerType::get(M.getContext(), 64), 0);
+			Function *func = Function::Create(func_type, Function::ExternalLinkage, "malloc", M);
+			malloc_function = func;
 			create_klee_function_decls(M);
 			remove_unneeded_functions(M);
 			symbolize_function_args_and_invoke(M);
