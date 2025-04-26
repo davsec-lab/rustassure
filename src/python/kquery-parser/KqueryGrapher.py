@@ -306,15 +306,55 @@ class KqueryASTVisitor(KqueryVisitor):
         return node
 
 
+    def visitUpdate_list(self, ctx):
+        """
+        update_list : expr '=' expr (',' expr '=' expr)*;
+        The expr = expr on the left most is the most recent one.
+        We will retain this convention.
+        """
+        update_node = Node("update_list", "", self.G)
+        # print("Update list: " + ctx.getText())
+
+        i = 0
+        while i < ctx.getChildCount():
+            # If it is a comma, skip it
+            if ctx.getChild(i).getText() == ",":
+                i += 1
+                continue
+            lhs_expr_child = ctx.getChild(i)
+            rhs_expr_child = ctx.getChild(i + 2)
+            # print("LHS: " + lhs_expr_child.getText())
+            # print("RHS: " + rhs_expr_child.getText())
+            if isinstance(lhs_expr_child, KqueryParser.ExprContext):
+                lhs_expr_node = self.visit(lhs_expr_child)
+                rhs_expr_node = self.visit(rhs_expr_child)
+                update_node.children.append(lhs_expr_node)
+                update_node.children.append(rhs_expr_node)
+
+                # Add edges
+                self.G.add_edge(update_node.node_id, lhs_expr_node.node_id)
+                self.G.add_edge(update_node.node_id, rhs_expr_node.node_id)
+            i += 3
+        return update_node
+           
+
     def visitVersion(self, ctx):
+        """
+update_list : expr '=' expr (',' expr '=' expr)*;
+version: '[' (update_list)? ']' '@' version
+       | IDENTIFIER (':' expr)?
+       ;
+        """
         # We don't parse version any deeper. TODO?
         version = ctx.getText()
-        if not extract_unique_numbers_from_string(version) == "":
-            version = "update list" + extract_unique_numbers_from_string(version)
-        elif len(version) > 20 and not "input_argument" in version:
-            version = "abnormal update list"
-        node = Node(version, "", self.G)
-        return node
+        version_node = Node("version", "", self.G)
+        for i in range(ctx.getChildCount()):
+            child = ctx.getChild(i)
+            if isinstance(child, KqueryParser.Update_listContext):
+                update_list_node = self.visit(child)
+                version_node.children.append(update_list_node)
+                self.G.add_edge(version_node.node_id, update_list_node.node_id)
+        return version_node
 
     def visitExpr(self, ctx):
         # print("Visit expr: " + ctx.getText())
@@ -374,6 +414,7 @@ def convert_kquery_to_graph(expressions, function_name, output_dir, seen_graphs,
         #     if is_duplicate_graph(visitor.G, seen_graphs):
         #         continue
         # Save the output to the specified directory
+        print("output dir: " + output_dir)
         output_file = os.path.join(output_dir, "output_graph_" + function_name + "_" + str(i) + ".dot")
         # if (removed):
         #     logging.info(f"{current_dir}/{output_file} - removed is True")
