@@ -345,8 +345,6 @@ version: '[' (update_list)? ']' '@' version
        | IDENTIFIER (':' expr)?
        ;
         """
-        # We don't parse version any deeper. TODO?
-        version = ctx.getText()
         version_node = Node("version", "", self.G)
         for i in range(ctx.getChildCount()):
             child = ctx.getChild(i)
@@ -354,6 +352,14 @@ version: '[' (update_list)? ']' '@' version
                 update_list_node = self.visit(child)
                 version_node.children.append(update_list_node)
                 self.G.add_edge(version_node.node_id, update_list_node.node_id)
+            if isinstance(child, KqueryParser.IdentifierContext):
+                identifier_node = self.visit(child)
+                version_node.children.append(identifier_node)
+                self.G.add_edge(version_node.node_id, identifier_node.node_id)
+            if isinstance(child, KqueryParser.ExprContext):
+                expr_node = self.visit(child)
+                version_node.children.append(expr_node)
+                self.G.add_edge(version_node.node_id, expr_node.node_id)
         return version_node
 
     def visitExpr(self, ctx):
