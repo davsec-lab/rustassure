@@ -40,7 +40,7 @@ Frontend includes extract all individual .i files and translate them into rust b
 		`rustup install 1.64.0`
 		`rustup default 1.64.0`
 
-3. Please clone `git@github.com:taptipalit/typedefextractor.git` and build it. Make sure it builds the `clang` project.
+3. Please clone `https://github.com/davsec-lab/typedefextractor` and build it. Make sure it builds the `clang` project.
 
 4. Add the build directory to your `$PATH`. Make sure you can run `unused-typedef-extractor <src-dir>` from the terminal. 
 
