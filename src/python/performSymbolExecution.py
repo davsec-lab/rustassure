@@ -23,9 +23,9 @@ convert_klee_gpt3 = "../scripts/convert_klee_gpt3.sh"
 convert_klee_4omini = "../scripts/convert_klee_4omini.sh"
 
 
-def start_process(source_path, model : Model):
+def start_process(source_path, model : Model, create_map_by_llm = False):
     subprocess.run(["bash", divide_script_path], cwd=source_path, text=True)
-    subprocess.run(["python3", "../../python/symbolicExecution.py", str(model.value), str(create_map_by_llm)], cwd=source_path, text=True)
+    subprocess.run(["python3", "../../python/symbolicExecution.py", str(model.value), str(create_map_by_llm).lower()], cwd=source_path, text=True)
     # if model == Model.claude:
     #     subprocess.run(["bash", convert_klee_claude], cwd=source_path, text=True)
     # elif model == Model.gpt_4o:
@@ -46,13 +46,13 @@ def prepare_directory(source, target_directory):
 
     return main_directory
 
-def perform_general_execution(input_directory):
+def perform_general_execution(input_directory, create_map_by_llm = False):
     print("Executing general task")
     function_name = inspect.currentframe().f_code.co_name
     timestamp = datetime.now().strftime("%Y%m%d_%Y-%m-%d_%H-%M-%S")
     directory_name = f"{function_name}_{timestamp}"
     subdirectory_path = prepare_directory(input_directory, directory_name)
-    start_process(subdirectory_path, Model.gpt_4o)
+    start_process(subdirectory_path, Model.gpt_4o, create_map_by_llm)
     return subdirectory_path
 
 def libcsv_gpt_4o():
@@ -339,7 +339,7 @@ if __name__ == "__main__":
     create_map_by_llm = args.createArgumentOrderMap
 
     if args.src:
-        directory = perform_general_execution(args.src)
+        directory = perform_general_execution(args.src, create_map_by_llm)
         process_output(directory, "custom", "custom")
     else:
         codebases = ["libcsv", "libbmp", "optipng", "url_parser", "u8c", "libopenaptx"]

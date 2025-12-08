@@ -303,7 +303,7 @@ def create_argument_map(create_map_by_llm, model):
 def main():
 
     model = sys.argv[1]
-    create_map_by_llm = sys.argv[2]
+    create_map_by_llm = sys.argv[2].lower() == "true"
 
     # Clean up old logs if present
     if os.path.exists("compare_graph_output_log.log"):
@@ -331,7 +331,7 @@ def main():
     except Exception as e:
         logger.error("compile rust error: %s", e, exc_info=True)
 
-    create_argument_map(str_to_bool(create_map_by_llm), model)
+    create_argument_map(create_map_by_llm, model)
 
     # 1.5) create C map
     try:
