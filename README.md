@@ -67,14 +67,14 @@ Backend includes using LLVM to modify all rust and C files and use KLEE to get s
 	* Add the `<FULL_PATH>/clang+llvm-14.0.0-x86_64-linux-gnu-ubuntu-18.04/bin` to `$PATH`. This will bring the binaries on your path and you can invoke them like standard Linux tools.
 
 3.  Once you init the LLVM submodules you should have the KLEE repository. 
-	 * Create a directory for `klee-build` in `<PATH>/rustify-validator/src` 
+	 * Create a directory for `klee-build` in `<PATH>/rustassure/src` 
 	 * Run `cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_TCMALLOC=0 -DENABLE_SOLVER_Z3=ON ../klee`
 	* Run `make -j4 && sudo make install`
 
 4. install json dependency by `git submodule update --init`
 
 5. Build the Symbolizer pass. This is LLVM tool that automatically inserts the `klee_make_symbolic` and `klee_print_exprs` functions to the LLVM bitcode. 
-	 Inside `rustify/src/Symbolizer` run `./build.sh`.
+	 Inside `rustassure/src/Symbolizer` run `./build.sh`.
 
  
 NOTE: When pulling, please make sure that you have the latest of the typedefextractor repo too.
