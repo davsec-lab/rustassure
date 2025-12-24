@@ -86,6 +86,8 @@ def analyze_rs_files(root_dir, csv_file_path, disable_write = false):
                         continue
 
                     function_body = find_function_body(src, func_name)
+                    if not function_body:
+                        continue
 
                     total_lines = len(function_body.split("\n"))
                     if has_unsafe_keyword(src, func_name):
